@@ -1,4 +1,4 @@
-# Interactive Stock Correlation Network
+# Financial Market Correlation Topology
 
 Visualizing stock correlations using a dynamic, interactive network graph
 
