@@ -3,14 +3,14 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
-from config import LOGGER_CONFIG
+from config import LOGGER_CONFIG, DIRECTORY_CONFIG
 
 
 def setup_logger(name: str,
                  log_to_console: bool = LOGGER_CONFIG.LOG_TO_CONSOLE,
                  log_to_file: bool = LOGGER_CONFIG.LOG_TO_FILE,
                  log_level: int = LOGGER_CONFIG.LOG_LEVEL,
-                 log_dir: Path = LOGGER_CONFIG.LOG_DIR) -> logging.Logger:
+                 log_dir: Path = DIRECTORY_CONFIG.LOG_DIR) -> logging.Logger:
     """
     A module level logger with configurable log locations and levels across the project.
 

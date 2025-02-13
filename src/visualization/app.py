@@ -17,10 +17,10 @@ from dash import dcc, html, Input, Output
 from src.network.network_builder import build_correlation_network
 from src.network.community_builder import detect_communities
 from src.visualization.graph_plotter import generate_3d_network_figure
-from config import PROCESSED_DATA_DIR, DEFAULT_ARGUMENTS
+from config import DIRECTORY_CONFIG, DEFAULT_ARGUMENTS
 
 # Define the path for the processed correlation matrix
-CORR_MATRIX_FILE = os.path.join(PROCESSED_DATA_DIR, "correlation_matrix.csv")
+CORR_MATRIX_FILE = os.path.join(DIRECTORY_CONFIG.PROCESSED_DATA_DIR, "correlation_matrix.csv")
 
 # Load the correlation matrix
 corr_matrix = pd.read_csv(CORR_MATRIX_FILE, index_col=0)

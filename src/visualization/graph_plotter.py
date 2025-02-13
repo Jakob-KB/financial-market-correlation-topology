@@ -34,7 +34,7 @@ def generate_3d_network_figure(G: nx.Graph, communities: dict = None, seed: int 
     try:
         pos = GRAPH_CONFIG.LAYOUT_FUNC(G, dim=GRAPH_CONFIG.DIM, seed=GRAPH_CONFIG.SEED, k=GRAPH_CONFIG.K)
     except AttributeError:
-        logger.warning(f"Invalid layout function in config. Using default layout from config.")
+        logger.warning(f"Invalid layout function in config. Using default spring layout.")
         pos = nx.spring_layout(G, dim=GRAPH_CONFIG.DIM, seed=GRAPH_CONFIG.SEED, k=GRAPH_CONFIG.K)
 
     # Prepare lists for node positions and colors

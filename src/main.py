@@ -28,12 +28,12 @@ from src.visualization.app import run_native_app
 from time import sleep
 
 # Import configuration defaults
-from config import RAW_DATA_DIR, PROCESSED_DATA_DIR, SAMPLE_DATA_DIR, DEFAULT_ARGUMENTS
+from config import DIRECTORY_CONFIG, DEFAULT_ARGUMENTS
 
 
 def main():
     # 1. Load ticker list from CSV (if available); otherwise use defaults.
-    ticker_csv = SAMPLE_DATA_DIR / "sample_tickers_A.csv"
+    ticker_csv = DIRECTORY_CONFIG.SAMPLE_DATA_DIR / "sample_tickers_A.csv"
     if ticker_csv.exists():
         tickers_df = pd.read_csv(ticker_csv)
         tickers = tickers_df["Ticker"].tolist()
@@ -46,17 +46,17 @@ def main():
     start_date = DEFAULT_ARGUMENTS.DEFAULT_START_DATE
     end_date = DEFAULT_ARGUMENTS.DEFAULT_END_DATE
     interval = DEFAULT_ARGUMENTS.DEFAULT_INTERVAL
-    download_multiple_tickers(tickers, start_date, end_date, str(RAW_DATA_DIR), interval)
+    download_multiple_tickers(tickers, start_date, end_date, str(DIRECTORY_CONFIG.RAW_DATA_DIR), interval)
 
     # 3. Process raw data: Aggregate daily returns and compute correlation matrix.
     sleep(0.5)
-    returns_df = aggregate_daily_returns(tickers, str(RAW_DATA_DIR))
+    returns_df = aggregate_daily_returns(tickers, str(DIRECTORY_CONFIG.RAW_DATA_DIR))
     corr_matrix = compute_correlation_matrix(returns_df)
 
     # 4. Save processed data.
-    os.makedirs(str(PROCESSED_DATA_DIR), exist_ok=True)
-    daily_returns_file = os.path.join(str(PROCESSED_DATA_DIR), "daily_returns.csv")
-    corr_matrix_file = os.path.join(str(PROCESSED_DATA_DIR), "correlation_matrix.csv")
+    os.makedirs(str(DIRECTORY_CONFIG.PROCESSED_DATA_DIR), exist_ok=True)
+    daily_returns_file = os.path.join(str(DIRECTORY_CONFIG.PROCESSED_DATA_DIR), "daily_returns.csv")
+    corr_matrix_file = os.path.join(str(DIRECTORY_CONFIG.PROCESSED_DATA_DIR), "correlation_matrix.csv")
     save_dataframe_to_csv(returns_df, daily_returns_file)
     save_dataframe_to_csv(corr_matrix, corr_matrix_file)
     print("Processed data saved.")
@@ -65,14 +65,14 @@ def main():
     threshold = DEFAULT_ARGUMENTS.DEFAULT_CORRELATION_THRESHOLD
     print(f"Building network with threshold {threshold}...")
     G = build_correlation_network(corr_matrix, threshold)
-    network_file = str(PROCESSED_DATA_DIR / "network.gexf")
+    network_file = str(DIRECTORY_CONFIG.PROCESSED_DATA_DIR / "network.gexf")
     save_network(G, network_file)
 
     # 6. Detect communities (clusters) in the network.
     print("Detecting communities...")
     communities = detect_communities(G)
     if communities is not None:
-        communities_file = str(PROCESSED_DATA_DIR / "communities.json")
+        communities_file = str(DIRECTORY_CONFIG.PROCESSED_DATA_DIR / "communities.json")
         save_communities(communities, communities_file)
     else:
         print("No communities detected.")
