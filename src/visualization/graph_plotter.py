@@ -13,7 +13,7 @@ from src.utils.setup_logger import setup_logger
 from config import GRAPH_CONFIG
 
 # Configure module-level logger
-logger = setup_logger(__name__, add_console=False)
+logger = setup_logger(__name__, log_to_console=False)
 
 
 def generate_3d_network_figure(G: nx.Graph, communities: dict = None, seed: int = 42) -> go.Figure:
@@ -30,17 +30,12 @@ def generate_3d_network_figure(G: nx.Graph, communities: dict = None, seed: int 
     Returns:
         go.Figure: A Plotly Figure object representing the 3D network visualization.
     """
-    # Compute a 3D spring layout
-    if GRAPH_CONFIG.POSITIONING_LAYOUT == 'spring_layout':
-        pos = nx.spring_layout(G, dim=3, seed=42, k=0.3, iterations=100)
-    elif GRAPH_CONFIG.POSITIONING_LAYOUT == 'fruchterman_reingold_layout':
-        pos = nx.fruchterman_reingold_layout(G, dim=3)
-    elif GRAPH_CONFIG.POSITIONING_LAYOUT == 'kamada_kawai_layout':
-        pos = nx.kamada_kawai_layout(G, dim=3)
-    else:
-        print(f"Warning: Graph Layout '{GRAPH_CONFIG.POSITIONING_LAYOUT}' is unrecognized. "
-              f"Using default 'spring_layout'.")
-        pos = nx.spring_layout(G, dim=3, seed=42, k=0.3, iterations=100)
+    # Compute node positions
+    try:
+        pos = GRAPH_CONFIG.LAYOUT_FUNC(G, dim=GRAPH_CONFIG.DIM, seed=GRAPH_CONFIG.SEED, k=GRAPH_CONFIG.K)
+    except AttributeError:
+        logger.warning(f"Invalid layout function in config. Using default layout from config.")
+        pos = nx.spring_layout(G, dim=GRAPH_CONFIG.DIM, seed=GRAPH_CONFIG.SEED, k=GRAPH_CONFIG.K)
 
     # Prepare lists for node positions and colors
     node_x, node_y, node_z = [], [], []
@@ -119,4 +114,5 @@ def generate_3d_network_figure(G: nx.Graph, communities: dict = None, seed: int 
         ),
     )
 
+    logger.info("Node positing calculated and figure drawn.")
     return fig

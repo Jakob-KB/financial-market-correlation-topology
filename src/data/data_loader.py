@@ -17,7 +17,7 @@ from tqdm import tqdm
 from src.utils.setup_logger import setup_logger
 
 # Configure module-level logger
-logger = setup_logger(__name__, add_console=False)
+logger = setup_logger(__name__, log_to_console=False)
 
 
 def download_stock_data(

@@ -1,8 +1,9 @@
 # config.py
 from dataclasses import dataclass, field
-from typing import List
-
+from typing import List, Callable
+import networkx as nx
 from pathlib import Path
+import logging
 
 # Compute the absolute path to the project root.
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -11,17 +12,24 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 SAMPLE_DATA_DIR = PROJECT_ROOT / "data" / "sample_tickers"
-LOGS_DIR = PROJECT_ROOT / "logs"
 SRC_ROOT = PROJECT_ROOT / "src"
 
 
 # Graph config
 @dataclass(frozen=True)
 class GraphConfig:
+    # General
     COLOURING_MODE: str = 'community_colouring'
-    POSITIONING_LAYOUT: str = 'spring_layout'
     NODE_SIZE: int = 8
     EDGE_OPACITY: float = 0.6
+
+    # Graph layout positioning
+    SEED: int = 42
+    K: float = 0.3
+    DIM: int = 3
+
+    # Layout function reference (default: spring layout)
+    LAYOUT_FUNC: Callable = nx.spring_layout
 
 
 # Default args for demoing modules
@@ -34,6 +42,17 @@ class DefaultArguments:
     DEFAULT_CORRELATION_THRESHOLD: float = 0.5
 
 
-# Create a singleton instances for easy access
+# Logger config
+@dataclass(frozen=True)
+class LoggerConfig:
+    LOG_TO_CONSOLE: bool = False
+    LOG_TO_FILE: bool = False
+
+    LOG_LEVEL: int = logging.INFO
+    LOG_DIR = PROJECT_ROOT / "logs"
+
+
+# Create singleton instances for easy access
 DEFAULT_ARGUMENTS = DefaultArguments()
 GRAPH_CONFIG = GraphConfig()
+LOGGER_CONFIG = LoggerConfig()

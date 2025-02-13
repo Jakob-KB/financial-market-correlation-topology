@@ -16,7 +16,7 @@ import networkx as nx
 from src.utils.setup_logger import setup_logger
 
 # Configure module-level logger
-logger = setup_logger(__name__, add_console=False)
+logger = setup_logger(__name__, log_to_console=False)
 
 
 def detect_communities(G: nx.Graph) -> Optional[dict]:
