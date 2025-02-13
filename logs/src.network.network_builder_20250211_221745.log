@@ -1,0 +1,6 @@
+2025-02-11 22:17:47 - src.network.network_builder - INFO - Adding 156 nodes to the network.
+2025-02-11 22:17:47 - src.network.network_builder - INFO - Added 1363 edges to the network with threshold 0.5.
+2025-02-11 22:18:01 - src.network.network_builder - INFO - Adding 156 nodes to the network.
+2025-02-11 22:18:01 - src.network.network_builder - INFO - Added 740 edges to the network with threshold 0.55.
+2025-02-11 22:18:02 - src.network.network_builder - INFO - Adding 156 nodes to the network.
+2025-02-11 22:18:02 - src.network.network_builder - INFO - Added 114 edges to the network with threshold 0.7.

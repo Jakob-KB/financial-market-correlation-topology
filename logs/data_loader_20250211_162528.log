@@ -1,0 +1,27 @@
+2025-02-11 16:25:29 - data.data_loader - INFO - Downloading data for AAPL from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:30 - data.data_loader - INFO - Successfully downloaded 1006 rows for AAPL
+2025-02-11 16:25:30 - data.data_loader - INFO - Data saved to C:\Users\jakob\Desktop\InteractiveStockCorrelationNetwork\data\raw\AAPL.csv
+2025-02-11 16:25:30 - data.data_loader - INFO - Downloading data for MSFT from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:30 - data.data_loader - INFO - Successfully downloaded 1006 rows for MSFT
+2025-02-11 16:25:30 - data.data_loader - INFO - Data saved to C:\Users\jakob\Desktop\InteractiveStockCorrelationNetwork\data\raw\MSFT.csv
+2025-02-11 16:25:30 - data.data_loader - INFO - Downloading data for GOOGL from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:30 - data.data_loader - INFO - Successfully downloaded 1006 rows for GOOGL
+2025-02-11 16:25:30 - data.data_loader - INFO - Data saved to C:\Users\jakob\Desktop\InteractiveStockCorrelationNetwork\data\raw\GOOGL.csv
+2025-02-11 16:25:30 - data.data_loader - INFO - Downloading data for AMZN from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:30 - data.data_loader - INFO - Successfully downloaded 1006 rows for AMZN
+2025-02-11 16:25:30 - data.data_loader - INFO - Data saved to C:\Users\jakob\Desktop\InteractiveStockCorrelationNetwork\data\raw\AMZN.csv
+2025-02-11 16:25:30 - data.data_loader - INFO - Downloading data for TSLA from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:31 - data.data_loader - INFO - Successfully downloaded 1006 rows for TSLA
+2025-02-11 16:25:31 - data.data_loader - INFO - Data saved to C:\Users\jakob\Desktop\InteractiveStockCorrelationNetwork\data\raw\TSLA.csv
+2025-02-11 16:25:31 - data.data_loader - INFO - Downloading data for FB from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:33 - data.data_loader - WARNING - No data returned for ticker FB
+2025-02-11 16:25:33 - data.data_loader - ERROR - Data for ticker FB could not be downloaded.
+2025-02-11 16:25:33 - data.data_loader - ERROR - Failed to download data for FB
+2025-02-11 16:25:33 - data.data_loader - INFO - Downloading data for BRK.B from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:34 - data.data_loader - WARNING - No data returned for ticker BRK.B
+2025-02-11 16:25:34 - data.data_loader - ERROR - Data for ticker BRK.B could not be downloaded.
+2025-02-11 16:25:34 - data.data_loader - ERROR - Failed to download data for BRK.B
+2025-02-11 16:25:34 - data.data_loader - INFO - Downloading data for NVDA from 2020-01-01 to 2024-01-01 with interval 1d
+2025-02-11 16:25:34 - data.data_loader - INFO - Successfully downloaded 1006 rows for NVDA
+2025-02-11 16:25:34 - data.data_loader - INFO - Data saved to C:\Users\jakob\Desktop\InteractiveStockCorrelationNetwork\data\raw\NVDA.csv
+2025-02-11 16:25:34 - data.data_loader - INFO - Downloading data for JPM from 2020-01-01 to 2024-01-01 with interval 1d

@@ -1,0 +1,7 @@
+yfinance~=0.2.52
+pandas~=2.2.3
+networkx~=3.4.2
+numpy~=2.2.2
+dash~=2.18.2
+plotly~=6.0.0
+tqdm~=4.67.1
