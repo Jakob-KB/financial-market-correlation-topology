@@ -8,39 +8,35 @@ It also provides functions to save and load the community mapping as JSON.
 """
 
 import json
-import os
+from pathlib import Path
 from typing import Optional
 
 import networkx as nx
 
+from config import DIRECTORY_CONFIG
 from src.utils.setup_logger import setup_logger
 
 # Configure module-level logger
-logger = setup_logger(__name__, log_to_console=False)
+logger = setup_logger(__name__)
 
 
 def detect_communities(G: nx.Graph) -> Optional[dict]:
     """
     Detect communities in the correlation network using a greedy modularity maximization algorithm.
 
-    This function uses NetworkX's greedy_modularity_communities function to partition the graph.
-    It returns a dictionary mapping each node to its community index.
+    This function leverages NetworkX's greedy_modularity_communities to partition the graph.
+    It returns a dictionary mapping each node (ticker) to its community index.
 
     Args:
-        G (nx.Graph): The correlation network.
+        G (nx.Graph): The correlation network graph.
 
     Returns:
-        Optional[dict]: A dictionary mapping each node (ticker) to its community index,
-                        or None if community detection fails.
+        Optional[dict]: Mapping node → community index, or None if detection fails.
     """
     try:
         from networkx.algorithms.community import greedy_modularity_communities
-
         communities = greedy_modularity_communities(G)
-        community_map = {}
-        for idx, community in enumerate(communities):
-            for node in community:
-                community_map[node] = idx
+        community_map = {node: idx for idx, community in enumerate(communities) for node in community}
         logger.info("Detected %d communities in the network.", len(communities))
         return community_map
     except Exception as e:
@@ -48,38 +44,54 @@ def detect_communities(G: nx.Graph) -> Optional[dict]:
         return None
 
 
-def save_communities(communities: dict, filename: str) -> None:
+def save_communities(
+    communities: dict,
+    file_name: str,
+    output_dir: Path = DIRECTORY_CONFIG.PROCESSED_DATA_DIR
+) -> None:
     """
     Save the community mapping to a JSON file.
 
     Args:
         communities (dict): A dictionary mapping nodes to community indices.
-        filename (str): The file path where the JSON will be saved.
+        file_name (str): Name of the JSON file to be saved.
+        output_dir (Path): Directory where the JSON file will be stored.
+
+    Returns:
+        None
     """
+    file_path = output_dir / file_name
     try:
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        with open(filename, "w") as f:
+        with file_path.open("w") as f:
             json.dump(communities, f, indent=4)
-        logger.info("Community mapping saved to %s.", filename)
+        logger.info("Saved community mapping to %s.", file_path)
     except Exception as e:
-        logger.error("Failed to save community mapping: %s", e)
+        logger.error("Failed to save community mapping to %s: %s", file_path, e)
 
 
-def load_communities(filename: str) -> dict:
+def load_communities(
+    file_name: str,
+    input_dir: Path = DIRECTORY_CONFIG.PROCESSED_DATA_DIR
+) -> dict:
     """
     Load the community mapping from a JSON file.
 
     Args:
-        filename (str): The file path from which to load the community mapping.
+        file_name (str): Name of the JSON file storing communities.
+        input_dir (Path): Directory where the JSON file is stored.
 
     Returns:
-        dict: The community mapping.
+        dict: The community mapping (node → community index).
+
+    Raises:
+        Exception: If loading the file fails for any reason.
     """
+    file_path = input_dir / file_name
     try:
-        with open(filename, "r") as f:
+        with file_path.open("r") as f:
             communities = json.load(f)
-        logger.info("Community mapping loaded from %s.", filename)
+        logger.info("Loaded community mapping from %s.", file_path)
         return communities
     except Exception as e:
-        logger.error("Failed to load community mapping: %s", e)
+        logger.error("Failed to load community mapping from %s: %s", file_path, e)
         raise e

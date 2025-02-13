@@ -39,7 +39,6 @@ def setup_logger(name: str,
 
     # Add file handler if enabled
     if log_to_file:
-        log_dir.mkdir(exist_ok=True)  # Ensure log directory exists
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         log_filename = f"{name}_{timestamp}.log"
         file_handler = logging.FileHandler(log_dir / log_filename)

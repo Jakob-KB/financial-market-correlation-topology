@@ -5,43 +5,54 @@ Module: network_builder.py
 This module provides functions to build and analyze a stock correlation network using a correlation matrix.
 Each node in the graph represents a stock, and an edge is added between two stocks if the absolute correlation
 between them exceeds a specified threshold. Edge weights are set to the corresponding correlation value.
-It also provides functions to save and load the network data.
+
+It also provides functions to save and load the network data in GEXF format.
 """
 
-import os
+from pathlib import Path
+
 import networkx as nx
 import pandas as pd
 
+from config import DATA_CONFIG, DIRECTORY_CONFIG
 from src.utils.setup_logger import setup_logger
 
 # Configure module-level logger
-logger = setup_logger(__name__, log_to_console=False)
+logger = setup_logger(__name__)
 
 
-def build_correlation_network(correlation_matrix: pd.DataFrame, threshold: float = 0.5) -> nx.Graph:
+def build_correlation_network(
+    correlation_matrix: pd.DataFrame,
+    threshold: float = DATA_CONFIG.CORRELATION_THRESHOLD
+) -> nx.Graph:
     """
     Build a correlation network from a given correlation matrix.
 
-    Each node represents a stock (identified by its ticker). An edge is added between two stocks if the absolute
-    correlation between them is greater than or equal to the specified threshold. The edge weight is the correlation
-    value.
+    Each node represents a stock (identified by its ticker). An edge is added between two stocks
+    if the absolute correlation between them is >= `threshold`. The edge weight is the correlation value.
 
     Args:
-        correlation_matrix (pd.DataFrame): A square DataFrame containing pairwise correlation values.
-        threshold (float, optional): Minimum absolute correlation required to add an edge. Defaults to 0.5.
+        correlation_matrix (pd.DataFrame): A square DataFrame of pairwise correlation values.
+        threshold (float): Minimum absolute correlation needed to add an edge (default 0.5).
 
     Returns:
-        nx.Graph: An undirected graph representing the correlation network.
+        nx.Graph: Undirected graph representing the correlation network.
+
+    Raises:
+        ValueError: If the provided correlation_matrix is empty.
     """
     if correlation_matrix.empty:
         logger.error("The correlation matrix is empty.")
         raise ValueError("Correlation matrix must not be empty.")
 
+    # Initialize graph
     G = nx.Graph()
     tickers = correlation_matrix.columns.tolist()
+
     logger.info("Adding %d nodes to the network.", len(tickers))
     G.add_nodes_from(tickers)
 
+    # Add edges based on threshold
     n_edges = 0
     for i, ticker1 in enumerate(tickers):
         for ticker2 in tickers[i + 1:]:
@@ -50,40 +61,56 @@ def build_correlation_network(correlation_matrix: pd.DataFrame, threshold: float
                 G.add_edge(ticker1, ticker2, weight=corr_value)
                 n_edges += 1
 
-    logger.info("Added %d edges to the network with threshold %s.", n_edges, threshold)
+    logger.info("Added %d edges using threshold = %.2f.", n_edges, threshold)
     return G
 
 
-def save_network(G: nx.Graph, filename: str) -> None:
+def save_network(
+    G: nx.Graph,
+    file_name: str,
+    output_dir: Path = DIRECTORY_CONFIG.PROCESSED_DATA_DIR
+) -> None:
     """
     Save the network graph to a file in GEXF format.
 
     Args:
         G (nx.Graph): The network graph to save.
-        filename (str): The file path where the graph will be saved.
+        file_name (str): Name of the network file.
+        output_dir (Path): Location where the GEXF file will be saved.
+
+    Returns:
+        None
     """
+    file_path = output_dir / file_name
     try:
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        nx.write_gexf(G, filename)
-        logger.info("Network graph saved to network.gexf")
+        nx.write_gexf(G, file_path)
+        logger.info("Saved network graph to %s.", file_path)
     except Exception as e:
-        logger.error("Failed to save network graph: %s", e)
+        logger.error("Failed to save network graph to %s: %s", file_path, e)
 
 
-def load_network(filename: str) -> nx.Graph:
+def load_network(
+    file_name: str,
+    input_dir: Path = DIRECTORY_CONFIG.PROCESSED_DATA_DIR
+) -> nx.Graph:
     """
     Load a network graph from a GEXF file.
 
     Args:
-        filename (str): The file path from which to load the graph.
+        file_name (str): Name of the network file.
+        input_dir (Path): Location where the GEXF file is saved.
 
     Returns:
         nx.Graph: The loaded network graph.
+
+    Raises:
+        Exception: If the GEXF file cannot be read for any reason.
     """
+    file_path = input_dir / file_name
     try:
-        G = nx.read_gexf(filename)
-        logger.info("Network graph loaded from %s.", filename)
+        G = nx.read_gexf(file_path)
+        logger.info("Loaded network graph from %s.", file_path)
         return G
     except Exception as e:
-        logger.error("Failed to load network graph: %s", e)
+        logger.error("Failed to load network graph from %s: %s", file_path, e)
         raise e

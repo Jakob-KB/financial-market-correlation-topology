@@ -9,18 +9,19 @@ It utilizes the following modules:
     - graph_plotter (to generate an interactive Plotly 3D network figure).
 """
 
-import os
-import pandas as pd
+from pathlib import Path
+
 import dash
 from dash import dcc, html, Input, Output
+import pandas as pd
 
+from config import DIRECTORY_CONFIG, APP_CONFIG, DATA_CONFIG
 from src.network.network_builder import build_correlation_network
 from src.network.community_builder import detect_communities
 from src.visualization.graph_plotter import generate_3d_network_figure
-from config import DIRECTORY_CONFIG, DEFAULT_ARGUMENTS
 
 # Define the path for the processed correlation matrix
-CORR_MATRIX_FILE = os.path.join(DIRECTORY_CONFIG.PROCESSED_DATA_DIR, "correlation_matrix.csv")
+CORR_MATRIX_FILE = Path(DIRECTORY_CONFIG.PROCESSED_DATA_DIR) / "correlation_matrix.csv"
 
 # Load the correlation matrix
 corr_matrix = pd.read_csv(CORR_MATRIX_FILE, index_col=0)
@@ -42,8 +43,8 @@ app.layout = html.Div(
                             id="threshold-slider",
                             min=0.0,
                             max=1.0,
-                            step=0.01,
-                            value=DEFAULT_ARGUMENTS.DEFAULT_CORRELATION_THRESHOLD,
+                            step=APP_CONFIG.CORRELATION_THRESHOLD_STEP,
+                            value=DATA_CONFIG.CORRELATION_THRESHOLD,
                             marks={i / 10: f"{i / 10:.1f}" for i in range(0, 11)},
                         ),
                     ],
@@ -72,9 +73,9 @@ def update_network(threshold: float):
     Returns:
         plotly.graph_objs._figure.Figure: The updated 3D network figure.
     """
-    G = build_correlation_network(corr_matrix, threshold=threshold)
+    G = build_correlation_network(correlation_matrix=corr_matrix, threshold=threshold)
     communities = detect_communities(G)
-    fig = generate_3d_network_figure(G, communities=communities)
+    fig = generate_3d_network_figure(G=G, communities=communities)
     return fig
 
 
