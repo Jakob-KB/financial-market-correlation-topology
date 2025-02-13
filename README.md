@@ -18,7 +18,7 @@ InteractiveStockCorrelationNetwork/
 │── src/
 │   ├── data/
 │   │   ├── data_loader.py  # Downloads stock data from yfinance
-│   │   ├── data_processor.py  # Computes daily returns & correlation matrix
+│   │   ├── data_processor.py  # Calculate daily returns & correlation matrix
 │   ├── network/
 │   │   ├── network_builder.py  # Constructs the correlation network
 │   │   ├── community_builder.py  # Detects stock communities (clusters)

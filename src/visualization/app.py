@@ -42,7 +42,7 @@ app.layout = html.Div(
                             id="threshold-slider",
                             min=0.0,
                             max=1.0,
-                            step=0.05,
+                            step=0.01,
                             value=DEFAULT_ARGUMENTS.DEFAULT_CORRELATION_THRESHOLD,
                             marks={i / 10: f"{i / 10:.1f}" for i in range(0, 11)},
                         ),
