@@ -1,0 +1,1490 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-02-13">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="AAPL" label="AAPL" />
+      <node id="MSFT" label="MSFT" />
+      <node id="GOOGL" label="GOOGL" />
+      <node id="AMZN" label="AMZN" />
+      <node id="TSLA" label="TSLA" />
+      <node id="NVDA" label="NVDA" />
+      <node id="JPM" label="JPM" />
+      <node id="JNJ" label="JNJ" />
+      <node id="V" label="V" />
+      <node id="UNH" label="UNH" />
+      <node id="HD" label="HD" />
+      <node id="PG" label="PG" />
+      <node id="BAC" label="BAC" />
+      <node id="MA" label="MA" />
+      <node id="DIS" label="DIS" />
+      <node id="XOM" label="XOM" />
+      <node id="VZ" label="VZ" />
+      <node id="ADBE" label="ADBE" />
+      <node id="NFLX" label="NFLX" />
+      <node id="CMCSA" label="CMCSA" />
+      <node id="KO" label="KO" />
+      <node id="PFE" label="PFE" />
+      <node id="T" label="T" />
+      <node id="INTC" label="INTC" />
+      <node id="CSCO" label="CSCO" />
+      <node id="PEP" label="PEP" />
+      <node id="ABT" label="ABT" />
+      <node id="CRM" label="CRM" />
+      <node id="CVX" label="CVX" />
+      <node id="LLY" label="LLY" />
+      <node id="MRK" label="MRK" />
+      <node id="WMT" label="WMT" />
+      <node id="ACN" label="ACN" />
+      <node id="NKE" label="NKE" />
+      <node id="ORCL" label="ORCL" />
+      <node id="MCD" label="MCD" />
+      <node id="DHR" label="DHR" />
+      <node id="AMGN" label="AMGN" />
+      <node id="QCOM" label="QCOM" />
+      <node id="COST" label="COST" />
+      <node id="UPS" label="UPS" />
+      <node id="TXN" label="TXN" />
+      <node id="MDT" label="MDT" />
+      <node id="IBM" label="IBM" />
+      <node id="HON" label="HON" />
+      <node id="SBUX" label="SBUX" />
+      <node id="GE" label="GE" />
+      <node id="BA" label="BA" />
+      <node id="MMM" label="MMM" />
+      <node id="CVS" label="CVS" />
+      <node id="GM" label="GM" />
+      <node id="F" label="F" />
+      <node id="DE" label="DE" />
+      <node id="CAT" label="CAT" />
+      <node id="AXP" label="AXP" />
+      <node id="LMT" label="LMT" />
+      <node id="BLK" label="BLK" />
+      <node id="USB" label="USB" />
+      <node id="C" label="C" />
+      <node id="GS" label="GS" />
+      <node id="MO" label="MO" />
+      <node id="TMO" label="TMO" />
+      <node id="SPGI" label="SPGI" />
+      <node id="CCI" label="CCI" />
+      <node id="ADI" label="ADI" />
+      <node id="BDX" label="BDX" />
+      <node id="AMAT" label="AMAT" />
+      <node id="ISRG" label="ISRG" />
+      <node id="BKNG" label="BKNG" />
+      <node id="SYK" label="SYK" />
+      <node id="SCHW" label="SCHW" />
+      <node id="EL" label="EL" />
+      <node id="MDLZ" label="MDLZ" />
+      <node id="VRTX" label="VRTX" />
+      <node id="REGN" label="REGN" />
+      <node id="BIIB" label="BIIB" />
+      <node id="ADP" label="ADP" />
+      <node id="FIS" label="FIS" />
+      <node id="PLD" label="PLD" />
+      <node id="ZTS" label="ZTS" />
+      <node id="WFC" label="WFC" />
+      <node id="PNC" label="PNC" />
+      <node id="MCO" label="MCO" />
+      <node id="CMI" label="CMI" />
+      <node id="EOG" label="EOG" />
+      <node id="SLB" label="SLB" />
+      <node id="OXY" label="OXY" />
+      <node id="PSA" label="PSA" />
+      <node id="KHC" label="KHC" />
+      <node id="JCI" label="JCI" />
+      <node id="MET" label="MET" />
+      <node id="FDX" label="FDX" />
+      <node id="NEM" label="NEM" />
+      <node id="AEP" label="AEP" />
+      <node id="CMS" label="CMS" />
+      <node id="O" label="O" />
+      <node id="DVN" label="DVN" />
+      <node id="EMR" label="EMR" />
+      <node id="ETN" label="ETN" />
+      <node id="D" label="D" />
+      <node id="NOC" label="NOC" />
+      <node id="ITW" label="ITW" />
+      <node id="VLO" label="VLO" />
+      <node id="AON" label="AON" />
+      <node id="WBA" label="WBA" />
+      <node id="ADM" label="ADM" />
+      <node id="IP" label="IP" />
+      <node id="APA" label="APA" />
+      <node id="WEC" label="WEC" />
+      <node id="ALL" label="ALL" />
+      <node id="AIG" label="AIG" />
+      <node id="TRV" label="TRV" />
+      <node id="SPG" label="SPG" />
+      <node id="KMB" label="KMB" />
+      <node id="EXC" label="EXC" />
+      <node id="HLN" label="HLN" />
+      <node id="STT" label="STT" />
+      <node id="GIS" label="GIS" />
+      <node id="MRVL" label="MRVL" />
+      <node id="DXC" label="DXC" />
+      <node id="ECL" label="ECL" />
+      <node id="CNP" label="CNP" />
+      <node id="HES" label="HES" />
+      <node id="PGR" label="PGR" />
+      <node id="RSG" label="RSG" />
+      <node id="TSN" label="TSN" />
+      <node id="EXPE" label="EXPE" />
+      <node id="VTR" label="VTR" />
+      <node id="AME" label="AME" />
+      <node id="WMB" label="WMB" />
+      <node id="RCL" label="RCL" />
+      <node id="LHX" label="LHX" />
+      <node id="PRU" label="PRU" />
+      <node id="UNP" label="UNP" />
+      <node id="WM" label="WM" />
+      <node id="PYPL" label="PYPL" />
+      <node id="SQ" label="SQ" />
+      <node id="SHOP" label="SHOP" />
+      <node id="BABA" label="BABA" />
+      <node id="JD" label="JD" />
+      <node id="NTES" label="NTES" />
+      <node id="BIDU" label="BIDU" />
+      <node id="XEL" label="XEL" />
+      <node id="CHTR" label="CHTR" />
+      <node id="FTNT" label="FTNT" />
+      <node id="LRCX" label="LRCX" />
+      <node id="INTU" label="INTU" />
+      <node id="ADSK" label="ADSK" />
+      <node id="ANSS" label="ANSS" />
+      <node id="CDNS" label="CDNS" />
+      <node id="CTSH" label="CTSH" />
+      <node id="MCHP" label="MCHP" />
+      <node id="MU" label="MU" />
+      <node id="NVAX" label="NVAX" />
+      <node id="TGT" label="TGT" />
+    </nodes>
+    <edges>
+      <edge source="AAPL" target="MSFT" id="0" weight="0.6927352328027845" />
+      <edge source="AAPL" target="GOOGL" id="1" weight="0.6537648089454507" />
+      <edge source="AAPL" target="AMZN" id="2" weight="0.5702198744966885" />
+      <edge source="AAPL" target="NVDA" id="3" weight="0.5783138366924131" />
+      <edge source="AAPL" target="V" id="4" weight="0.5965755709031159" />
+      <edge source="AAPL" target="HD" id="5" weight="0.5281412519547454" />
+      <edge source="AAPL" target="MA" id="6" weight="0.6474513336115203" />
+      <edge source="AAPL" target="ADBE" id="7" weight="0.6046874726531708" />
+      <edge source="AAPL" target="INTC" id="8" weight="0.5102719363419582" />
+      <edge source="AAPL" target="CSCO" id="9" weight="0.509422224122059" />
+      <edge source="AAPL" target="CRM" id="10" weight="0.5345023191149529" />
+      <edge source="AAPL" target="ACN" id="11" weight="0.634858628251805" />
+      <edge source="AAPL" target="NKE" id="12" weight="0.5043743328130302" />
+      <edge source="AAPL" target="QCOM" id="13" weight="0.6393631615157379" />
+      <edge source="AAPL" target="COST" id="14" weight="0.5371364319969044" />
+      <edge source="AAPL" target="TXN" id="15" weight="0.6443121072814716" />
+      <edge source="AAPL" target="AXP" id="16" weight="0.548176523750785" />
+      <edge source="AAPL" target="BLK" id="17" weight="0.6097697311085293" />
+      <edge source="AAPL" target="SPGI" id="18" weight="0.5797111039588655" />
+      <edge source="AAPL" target="ADI" id="19" weight="0.6129845155483259" />
+      <edge source="AAPL" target="AMAT" id="20" weight="0.5936713465083636" />
+      <edge source="AAPL" target="ISRG" id="21" weight="0.5284512897916387" />
+      <edge source="AAPL" target="ADP" id="22" weight="0.5385140182922983" />
+      <edge source="AAPL" target="ZTS" id="23" weight="0.5252482345805851" />
+      <edge source="AAPL" target="MCO" id="24" weight="0.6396409452354188" />
+      <edge source="AAPL" target="ITW" id="25" weight="0.5813116702098361" />
+      <edge source="AAPL" target="MRVL" id="26" weight="0.5331669923557303" />
+      <edge source="AAPL" target="ECL" id="27" weight="0.5543498312939938" />
+      <edge source="AAPL" target="AME" id="28" weight="0.544926718701666" />
+      <edge source="AAPL" target="SQ" id="29" weight="0.52825802462211" />
+      <edge source="AAPL" target="FTNT" id="30" weight="0.5089928491570852" />
+      <edge source="AAPL" target="LRCX" id="31" weight="0.5631915281975913" />
+      <edge source="AAPL" target="INTU" id="32" weight="0.6326627403232095" />
+      <edge source="AAPL" target="ADSK" id="33" weight="0.6015567722179365" />
+      <edge source="AAPL" target="ANSS" id="34" weight="0.5108190408579301" />
+      <edge source="AAPL" target="CDNS" id="35" weight="0.5505742666704908" />
+      <edge source="AAPL" target="MCHP" id="36" weight="0.6217372379810767" />
+      <edge source="MSFT" target="GOOGL" id="37" weight="0.6957166286517361" />
+      <edge source="MSFT" target="AMZN" id="38" weight="0.6644798507748475" />
+      <edge source="MSFT" target="NVDA" id="39" weight="0.6427732642360326" />
+      <edge source="MSFT" target="MA" id="40" weight="0.5697597767010679" />
+      <edge source="MSFT" target="ADBE" id="41" weight="0.6534492698325881" />
+      <edge source="MSFT" target="CRM" id="42" weight="0.5428483695128231" />
+      <edge source="MSFT" target="ACN" id="43" weight="0.6605370984613477" />
+      <edge source="MSFT" target="QCOM" id="44" weight="0.5248920846983267" />
+      <edge source="MSFT" target="TXN" id="45" weight="0.5670574495150205" />
+      <edge source="MSFT" target="BLK" id="46" weight="0.5621511188366412" />
+      <edge source="MSFT" target="SPGI" id="47" weight="0.5666199549704432" />
+      <edge source="MSFT" target="ADI" id="48" weight="0.5447099817725916" />
+      <edge source="MSFT" target="AMAT" id="49" weight="0.5829643547894252" />
+      <edge source="MSFT" target="ISRG" id="50" weight="0.510872342249337" />
+      <edge source="MSFT" target="MCO" id="51" weight="0.6302266837904075" />
+      <edge source="MSFT" target="MRVL" id="52" weight="0.5651208410252669" />
+      <edge source="MSFT" target="ECL" id="53" weight="0.5388007707727973" />
+      <edge source="MSFT" target="LRCX" id="54" weight="0.5477253117278761" />
+      <edge source="MSFT" target="INTU" id="55" weight="0.6535165965065068" />
+      <edge source="MSFT" target="ADSK" id="56" weight="0.5942255794772996" />
+      <edge source="MSFT" target="ANSS" id="57" weight="0.5917153037022197" />
+      <edge source="MSFT" target="CDNS" id="58" weight="0.6187357958592418" />
+      <edge source="MSFT" target="MCHP" id="59" weight="0.5515043821914627" />
+      <edge source="GOOGL" target="AMZN" id="60" weight="0.6742116635891816" />
+      <edge source="GOOGL" target="NVDA" id="61" weight="0.5374378498950704" />
+      <edge source="GOOGL" target="MA" id="62" weight="0.5192439295298918" />
+      <edge source="GOOGL" target="ADBE" id="63" weight="0.5938698835287544" />
+      <edge source="GOOGL" target="ACN" id="64" weight="0.5855680677907003" />
+      <edge source="GOOGL" target="TXN" id="65" weight="0.5272502084085096" />
+      <edge source="GOOGL" target="BLK" id="66" weight="0.5091165806733777" />
+      <edge source="GOOGL" target="SPGI" id="67" weight="0.5075591238666568" />
+      <edge source="GOOGL" target="ADI" id="68" weight="0.5257932837689916" />
+      <edge source="GOOGL" target="AMAT" id="69" weight="0.5332362241373949" />
+      <edge source="GOOGL" target="ADP" id="70" weight="0.5535958103386235" />
+      <edge source="GOOGL" target="MCO" id="71" weight="0.5397178177506187" />
+      <edge source="GOOGL" target="ECL" id="72" weight="0.5203872489471125" />
+      <edge source="GOOGL" target="SQ" id="73" weight="0.5302001878892438" />
+      <edge source="GOOGL" target="LRCX" id="74" weight="0.5084085601467786" />
+      <edge source="GOOGL" target="INTU" id="75" weight="0.6505647677495601" />
+      <edge source="GOOGL" target="ADSK" id="76" weight="0.551030909328976" />
+      <edge source="GOOGL" target="ANSS" id="77" weight="0.5111385609279181" />
+      <edge source="GOOGL" target="CDNS" id="78" weight="0.5161752587893117" />
+      <edge source="GOOGL" target="MCHP" id="79" weight="0.5235617528723835" />
+      <edge source="AMZN" target="NVDA" id="80" weight="0.5153358236304487" />
+      <edge source="AMZN" target="ADBE" id="81" weight="0.5828806695466865" />
+      <edge source="AMZN" target="CRM" id="82" weight="0.5538878515820723" />
+      <edge source="AMZN" target="ACN" id="83" weight="0.5455115129530897" />
+      <edge source="AMZN" target="COST" id="84" weight="0.5085718948259939" />
+      <edge source="AMZN" target="TXN" id="85" weight="0.520940417440995" />
+      <edge source="AMZN" target="BLK" id="86" weight="0.5312148209467544" />
+      <edge source="AMZN" target="SPGI" id="87" weight="0.5216273072274261" />
+      <edge source="AMZN" target="ADI" id="88" weight="0.504262757775334" />
+      <edge source="AMZN" target="AMAT" id="89" weight="0.5334270315830699" />
+      <edge source="AMZN" target="BKNG" id="90" weight="0.5159064256226291" />
+      <edge source="AMZN" target="MCO" id="91" weight="0.5644058958990354" />
+      <edge source="AMZN" target="MRVL" id="92" weight="0.5432611663992452" />
+      <edge source="AMZN" target="ECL" id="93" weight="0.5546448553825379" />
+      <edge source="AMZN" target="SQ" id="94" weight="0.528126711613006" />
+      <edge source="AMZN" target="SHOP" id="95" weight="0.5132994456318851" />
+      <edge source="AMZN" target="LRCX" id="96" weight="0.5262614304896392" />
+      <edge source="AMZN" target="INTU" id="97" weight="0.651503981228915" />
+      <edge source="AMZN" target="ADSK" id="98" weight="0.5675240267560251" />
+      <edge source="AMZN" target="ANSS" id="99" weight="0.5393215617596682" />
+      <edge source="AMZN" target="CDNS" id="100" weight="0.5370722233282018" />
+      <edge source="NVDA" target="MA" id="101" weight="0.5150488527712926" />
+      <edge source="NVDA" target="ADBE" id="102" weight="0.5861291739144281" />
+      <edge source="NVDA" target="ACN" id="103" weight="0.5398630357302412" />
+      <edge source="NVDA" target="QCOM" id="104" weight="0.5850371300033832" />
+      <edge source="NVDA" target="TXN" id="105" weight="0.5946694097025804" />
+      <edge source="NVDA" target="BLK" id="106" weight="0.5445565933125558" />
+      <edge source="NVDA" target="SPGI" id="107" weight="0.5135632360240961" />
+      <edge source="NVDA" target="ADI" id="108" weight="0.585237517047495" />
+      <edge source="NVDA" target="AMAT" id="109" weight="0.7082396475210364" />
+      <edge source="NVDA" target="MCO" id="110" weight="0.5303523835788957" />
+      <edge source="NVDA" target="MRVL" id="111" weight="0.6818052208726767" />
+      <edge source="NVDA" target="SQ" id="112" weight="0.5040492845051373" />
+      <edge source="NVDA" target="LRCX" id="113" weight="0.6737280575681771" />
+      <edge source="NVDA" target="INTU" id="114" weight="0.5716697157132699" />
+      <edge source="NVDA" target="ADSK" id="115" weight="0.5566207731015633" />
+      <edge source="NVDA" target="ANSS" id="116" weight="0.5913404025732092" />
+      <edge source="NVDA" target="CDNS" id="117" weight="0.686676468748118" />
+      <edge source="NVDA" target="MCHP" id="118" weight="0.6259965670706963" />
+      <edge source="NVDA" target="MU" id="119" weight="0.586441106918848" />
+      <edge source="JPM" target="V" id="120" weight="0.5259698367243643" />
+      <edge source="JPM" target="BAC" id="121" weight="0.7887591318882902" />
+      <edge source="JPM" target="MA" id="122" weight="0.5404296185358579" />
+      <edge source="JPM" target="UPS" id="123" weight="0.5267487045118656" />
+      <edge source="JPM" target="IBM" id="124" weight="0.5028609357653768" />
+      <edge source="JPM" target="HON" id="125" weight="0.5743796758220528" />
+      <edge source="JPM" target="GE" id="126" weight="0.5270975158513529" />
+      <edge source="JPM" target="GM" id="127" weight="0.5189289049374733" />
+      <edge source="JPM" target="CAT" id="128" weight="0.5227287192250387" />
+      <edge source="JPM" target="AXP" id="129" weight="0.5906090040865833" />
+      <edge source="JPM" target="BLK" id="130" weight="0.6472773540402319" />
+      <edge source="JPM" target="USB" id="131" weight="0.6033273855187385" />
+      <edge source="JPM" target="C" id="132" weight="0.761047786790212" />
+      <edge source="JPM" target="GS" id="133" weight="0.6782028821105611" />
+      <edge source="JPM" target="WFC" id="134" weight="0.7766457725302903" />
+      <edge source="JPM" target="PNC" id="135" weight="0.6659403585252104" />
+      <edge source="JPM" target="CMI" id="136" weight="0.5403909910497532" />
+      <edge source="JPM" target="JCI" id="137" weight="0.5590130404463459" />
+      <edge source="JPM" target="MET" id="138" weight="0.6570969807960163" />
+      <edge source="JPM" target="EMR" id="139" weight="0.5485912583318514" />
+      <edge source="JPM" target="ETN" id="140" weight="0.5274732140310144" />
+      <edge source="JPM" target="ITW" id="141" weight="0.5669349424037745" />
+      <edge source="JPM" target="AIG" id="142" weight="0.6349306647270674" />
+      <edge source="JPM" target="SPG" id="143" weight="0.5251648324109891" />
+      <edge source="JPM" target="STT" id="144" weight="0.6072529855433535" />
+      <edge source="JPM" target="AME" id="145" weight="0.5695548986721305" />
+      <edge source="JPM" target="PRU" id="146" weight="0.7145026403577929" />
+      <edge source="JNJ" target="MRK" id="147" weight="0.5324057135193891" />
+      <edge source="V" target="HD" id="148" weight="0.5237356906424939" />
+      <edge source="V" target="MA" id="149" weight="0.8695780177793869" />
+      <edge source="V" target="DIS" id="150" weight="0.5035427764879381" />
+      <edge source="V" target="ADBE" id="151" weight="0.5799615630818569" />
+      <edge source="V" target="ACN" id="152" weight="0.5722933491708129" />
+      <edge source="V" target="QCOM" id="153" weight="0.5238677427491152" />
+      <edge source="V" target="UPS" id="154" weight="0.5031879676372769" />
+      <edge source="V" target="TXN" id="155" weight="0.5053505386515913" />
+      <edge source="V" target="HON" id="156" weight="0.5097865526409482" />
+      <edge source="V" target="AXP" id="157" weight="0.6302463206960459" />
+      <edge source="V" target="BLK" id="158" weight="0.6002539822852612" />
+      <edge source="V" target="C" id="159" weight="0.5158158675707591" />
+      <edge source="V" target="SPGI" id="160" weight="0.5852739070867107" />
+      <edge source="V" target="ADI" id="161" weight="0.5119976394835064" />
+      <edge source="V" target="AMAT" id="162" weight="0.511126618505821" />
+      <edge source="V" target="SYK" id="163" weight="0.5155642750129906" />
+      <edge source="V" target="MCO" id="164" weight="0.6107756357389521" />
+      <edge source="V" target="ITW" id="165" weight="0.5489572503488259" />
+      <edge source="V" target="ECL" id="166" weight="0.5353242281662233" />
+      <edge source="V" target="AME" id="167" weight="0.5204497038720189" />
+      <edge source="V" target="LRCX" id="168" weight="0.5028087576016509" />
+      <edge source="V" target="INTU" id="169" weight="0.5596792398462247" />
+      <edge source="V" target="ADSK" id="170" weight="0.5327256963142905" />
+      <edge source="V" target="CTSH" id="171" weight="0.5326480474849782" />
+      <edge source="UNH" target="CVS" id="172" weight="0.5048981654469635" />
+      <edge source="HD" target="BAC" id="173" weight="0.5477703128074632" />
+      <edge source="HD" target="MA" id="174" weight="0.584234487981906" />
+      <edge source="HD" target="CMCSA" id="175" weight="0.5092008294358912" />
+      <edge source="HD" target="ACN" id="176" weight="0.6191788693245039" />
+      <edge source="HD" target="NKE" id="177" weight="0.533541988767576" />
+      <edge source="HD" target="DHR" id="178" weight="0.5473402090237663" />
+      <edge source="HD" target="QCOM" id="179" weight="0.5048161134580492" />
+      <edge source="HD" target="COST" id="180" weight="0.5137654879560009" />
+      <edge source="HD" target="UPS" id="181" weight="0.6008536621744579" />
+      <edge source="HD" target="TXN" id="182" weight="0.5915973089675914" />
+      <edge source="HD" target="HON" id="183" weight="0.5854701189869299" />
+      <edge source="HD" target="MMM" id="184" weight="0.5295516410125756" />
+      <edge source="HD" target="GM" id="185" weight="0.542770229356982" />
+      <edge source="HD" target="F" id="186" weight="0.5586883745758472" />
+      <edge source="HD" target="AXP" id="187" weight="0.5311582111641567" />
+      <edge source="HD" target="BLK" id="188" weight="0.6853716621624131" />
+      <edge source="HD" target="C" id="189" weight="0.5491035963162585" />
+      <edge source="HD" target="GS" id="190" weight="0.5497344762029088" />
+      <edge source="HD" target="TMO" id="191" weight="0.5293863782689424" />
+      <edge source="HD" target="SPGI" id="192" weight="0.6122685878576407" />
+      <edge source="HD" target="CCI" id="193" weight="0.5240457794022911" />
+      <edge source="HD" target="ADI" id="194" weight="0.5785491566800885" />
+      <edge source="HD" target="AMAT" id="195" weight="0.5322051573021302" />
+      <edge source="HD" target="ADP" id="196" weight="0.5493691563518953" />
+      <edge source="HD" target="PLD" id="197" weight="0.6370364067759361" />
+      <edge source="HD" target="ZTS" id="198" weight="0.5109968248471839" />
+      <edge source="HD" target="PNC" id="199" weight="0.5420251765177927" />
+      <edge source="HD" target="MCO" id="200" weight="0.6394435101481275" />
+      <edge source="HD" target="CMI" id="201" weight="0.5204560059232304" />
+      <edge source="HD" target="PSA" id="202" weight="0.5447982558274607" />
+      <edge source="HD" target="JCI" id="203" weight="0.5200557214526825" />
+      <edge source="HD" target="EMR" id="204" weight="0.5758343806976048" />
+      <edge source="HD" target="ITW" id="205" weight="0.6877586357445584" />
+      <edge source="HD" target="IP" id="206" weight="0.5255051412947566" />
+      <edge source="HD" target="SPG" id="207" weight="0.6262034441216295" />
+      <edge source="HD" target="ECL" id="208" weight="0.5856316105680497" />
+      <edge source="HD" target="AME" id="209" weight="0.5791352594232902" />
+      <edge source="HD" target="PRU" id="210" weight="0.5491656351575587" />
+      <edge source="HD" target="UNP" id="211" weight="0.5194863428810435" />
+      <edge source="HD" target="SQ" id="212" weight="0.5450013121449285" />
+      <edge source="HD" target="INTU" id="213" weight="0.5756078992226517" />
+      <edge source="HD" target="ADSK" id="214" weight="0.5630643573466494" />
+      <edge source="HD" target="CTSH" id="215" weight="0.5168239415434158" />
+      <edge source="HD" target="MCHP" id="216" weight="0.5828583111244714" />
+      <edge source="HD" target="TGT" id="217" weight="0.5053916465061211" />
+      <edge source="PG" target="KO" id="218" weight="0.6446789040765072" />
+      <edge source="PG" target="PEP" id="219" weight="0.6395532306849521" />
+      <edge source="PG" target="MCD" id="220" weight="0.5539212898254546" />
+      <edge source="PG" target="MDLZ" id="221" weight="0.6517893531271026" />
+      <edge source="PG" target="AEP" id="222" weight="0.5290010499775998" />
+      <edge source="PG" target="CMS" id="223" weight="0.5288952834791489" />
+      <edge source="PG" target="WEC" id="224" weight="0.538505333986434" />
+      <edge source="PG" target="KMB" id="225" weight="0.7432356290755738" />
+      <edge source="PG" target="CNP" id="226" weight="0.5121934355961021" />
+      <edge source="PG" target="XEL" id="227" weight="0.5363478886401091" />
+      <edge source="BAC" target="DHR" id="228" weight="0.5010785208699658" />
+      <edge source="BAC" target="UPS" id="229" weight="0.5568645060572033" />
+      <edge source="BAC" target="HON" id="230" weight="0.5197391514463274" />
+      <edge source="BAC" target="MMM" id="231" weight="0.5085359394200036" />
+      <edge source="BAC" target="GM" id="232" weight="0.6041553862451937" />
+      <edge source="BAC" target="F" id="233" weight="0.5097832061218436" />
+      <edge source="BAC" target="CAT" id="234" weight="0.5475031412597567" />
+      <edge source="BAC" target="AXP" id="235" weight="0.6395478003142885" />
+      <edge source="BAC" target="BLK" id="236" weight="0.6770822606852278" />
+      <edge source="BAC" target="USB" id="237" weight="0.7474509855850746" />
+      <edge source="BAC" target="C" id="238" weight="0.8169484461301539" />
+      <edge source="BAC" target="GS" id="239" weight="0.7557057028648386" />
+      <edge source="BAC" target="SPGI" id="240" weight="0.5044331077181" />
+      <edge source="BAC" target="SCHW" id="241" weight="0.6104978712781425" />
+      <edge source="BAC" target="PLD" id="242" weight="0.5216070299352066" />
+      <edge source="BAC" target="WFC" id="243" weight="0.8447993265595026" />
+      <edge source="BAC" target="PNC" id="244" weight="0.7928494409368719" />
+      <edge source="BAC" target="CMI" id="245" weight="0.5596144231139215" />
+      <edge source="BAC" target="JCI" id="246" weight="0.5377164796780342" />
+      <edge source="BAC" target="MET" id="247" weight="0.7126092411830988" />
+      <edge source="BAC" target="EMR" id="248" weight="0.567818974194837" />
+      <edge source="BAC" target="ITW" id="249" weight="0.5702964373512673" />
+      <edge source="BAC" target="IP" id="250" weight="0.5202366416532315" />
+      <edge source="BAC" target="AIG" id="251" weight="0.626756975121852" />
+      <edge source="BAC" target="SPG" id="252" weight="0.5995160849998071" />
+      <edge source="BAC" target="STT" id="253" weight="0.6931596560482476" />
+      <edge source="BAC" target="AME" id="254" weight="0.5105983340779432" />
+      <edge source="BAC" target="PRU" id="255" weight="0.7683863838390017" />
+      <edge source="BAC" target="SQ" id="256" weight="0.5529263478882702" />
+      <edge source="MA" target="DIS" id="257" weight="0.5513441958039164" />
+      <edge source="MA" target="ADBE" id="258" weight="0.6036923839203234" />
+      <edge source="MA" target="KO" id="259" weight="0.5127746941480115" />
+      <edge source="MA" target="CSCO" id="260" weight="0.5385816909735265" />
+      <edge source="MA" target="CRM" id="261" weight="0.5169822196907322" />
+      <edge source="MA" target="ACN" id="262" weight="0.634332668942214" />
+      <edge source="MA" target="NKE" id="263" weight="0.5213050754241152" />
+      <edge source="MA" target="DHR" id="264" weight="0.5422423854780628" />
+      <edge source="MA" target="QCOM" id="265" weight="0.5571617393513967" />
+      <edge source="MA" target="COST" id="266" weight="0.5451742528994307" />
+      <edge source="MA" target="UPS" id="267" weight="0.5797003664488957" />
+      <edge source="MA" target="TXN" id="268" weight="0.5725173423957982" />
+      <edge source="MA" target="HON" id="269" weight="0.5790325266906696" />
+      <edge source="MA" target="SBUX" id="270" weight="0.5174164238471772" />
+      <edge source="MA" target="GE" id="271" weight="0.5189644663029924" />
+      <edge source="MA" target="AXP" id="272" weight="0.6134848583700625" />
+      <edge source="MA" target="BLK" id="273" weight="0.6715531171256749" />
+      <edge source="MA" target="C" id="274" weight="0.5369474906001801" />
+      <edge source="MA" target="GS" id="275" weight="0.5094254934658892" />
+      <edge source="MA" target="TMO" id="276" weight="0.5272252007819668" />
+      <edge source="MA" target="SPGI" id="277" weight="0.6472119420459015" />
+      <edge source="MA" target="ADI" id="278" weight="0.5843377829203928" />
+      <edge source="MA" target="AMAT" id="279" weight="0.582782505773272" />
+      <edge source="MA" target="ISRG" id="280" weight="0.5399453320795257" />
+      <edge source="MA" target="BKNG" id="281" weight="0.5507116297009467" />
+      <edge source="MA" target="SYK" id="282" weight="0.5552328734018" />
+      <edge source="MA" target="ADP" id="283" weight="0.5459143298205485" />
+      <edge source="MA" target="PLD" id="284" weight="0.5126351825501249" />
+      <edge source="MA" target="ZTS" id="285" weight="0.5742779098189641" />
+      <edge source="MA" target="MCO" id="286" weight="0.6882709072621855" />
+      <edge source="MA" target="JCI" id="287" weight="0.5061478833814872" />
+      <edge source="MA" target="EMR" id="288" weight="0.5369539115825825" />
+      <edge source="MA" target="ETN" id="289" weight="0.5151552345427747" />
+      <edge source="MA" target="ITW" id="290" weight="0.6085609505104504" />
+      <edge source="MA" target="AON" id="291" weight="0.5280214705273887" />
+      <edge source="MA" target="STT" id="292" weight="0.5125909909162348" />
+      <edge source="MA" target="MRVL" id="293" weight="0.5173174018044215" />
+      <edge source="MA" target="ECL" id="294" weight="0.5878643790979367" />
+      <edge source="MA" target="AME" id="295" weight="0.6209512357465357" />
+      <edge source="MA" target="PRU" id="296" weight="0.5315783305316893" />
+      <edge source="MA" target="SQ" id="297" weight="0.5503668146346352" />
+      <edge source="MA" target="LRCX" id="298" weight="0.5738245964452402" />
+      <edge source="MA" target="INTU" id="299" weight="0.6290871450381067" />
+      <edge source="MA" target="ADSK" id="300" weight="0.6082818095059447" />
+      <edge source="MA" target="ANSS" id="301" weight="0.5363565546933802" />
+      <edge source="MA" target="CDNS" id="302" weight="0.5397110516436988" />
+      <edge source="MA" target="CTSH" id="303" weight="0.5796274427594157" />
+      <edge source="MA" target="MCHP" id="304" weight="0.5724020550584454" />
+      <edge source="DIS" target="QCOM" id="305" weight="0.5036103381414075" />
+      <edge source="DIS" target="UPS" id="306" weight="0.518467663897716" />
+      <edge source="DIS" target="AXP" id="307" weight="0.5276823180312982" />
+      <edge source="DIS" target="BLK" id="308" weight="0.5375688934726817" />
+      <edge source="DIS" target="C" id="309" weight="0.533461145885085" />
+      <edge source="DIS" target="MCO" id="310" weight="0.5245462045554486" />
+      <edge source="DIS" target="STT" id="311" weight="0.5325515597388916" />
+      <edge source="DIS" target="ECL" id="312" weight="0.5136336445995703" />
+      <edge source="DIS" target="SQ" id="313" weight="0.5147718158844374" />
+      <edge source="DIS" target="INTU" id="314" weight="0.5317265979506683" />
+      <edge source="XOM" target="CVX" id="315" weight="0.8701882106180752" />
+      <edge source="XOM" target="EOG" id="316" weight="0.8043941930175497" />
+      <edge source="XOM" target="SLB" id="317" weight="0.7460762897940869" />
+      <edge source="XOM" target="OXY" id="318" weight="0.7559571738527953" />
+      <edge source="XOM" target="DVN" id="319" weight="0.7904401415214067" />
+      <edge source="XOM" target="VLO" id="320" weight="0.666502713840596" />
+      <edge source="XOM" target="APA" id="321" weight="0.7914243479339872" />
+      <edge source="XOM" target="HES" id="322" weight="0.8415970620954185" />
+      <edge source="XOM" target="WMB" id="323" weight="0.6286023042942601" />
+      <edge source="VZ" target="T" id="324" weight="0.6714513288632333" />
+      <edge source="ADBE" target="CRM" id="325" weight="0.5871630462902773" />
+      <edge source="ADBE" target="ACN" id="326" weight="0.6135496051917316" />
+      <edge source="ADBE" target="QCOM" id="327" weight="0.5959116541782018" />
+      <edge source="ADBE" target="TXN" id="328" weight="0.5743528679470284" />
+      <edge source="ADBE" target="BLK" id="329" weight="0.5690667676720293" />
+      <edge source="ADBE" target="SPGI" id="330" weight="0.5555105179864259" />
+      <edge source="ADBE" target="ADI" id="331" weight="0.5580536057348213" />
+      <edge source="ADBE" target="AMAT" id="332" weight="0.6050829943807873" />
+      <edge source="ADBE" target="ISRG" id="333" weight="0.5014931806163354" />
+      <edge source="ADBE" target="MCO" id="334" weight="0.5808548460406546" />
+      <edge source="ADBE" target="MRVL" id="335" weight="0.5773199583946914" />
+      <edge source="ADBE" target="ECL" id="336" weight="0.515535943673568" />
+      <edge source="ADBE" target="LRCX" id="337" weight="0.5757550587886723" />
+      <edge source="ADBE" target="INTU" id="338" weight="0.6544992857672685" />
+      <edge source="ADBE" target="ADSK" id="339" weight="0.6232433143975307" />
+      <edge source="ADBE" target="ANSS" id="340" weight="0.5539225087107659" />
+      <edge source="ADBE" target="CDNS" id="341" weight="0.6449925926191126" />
+      <edge source="ADBE" target="MCHP" id="342" weight="0.5595521035104527" />
+      <edge source="CMCSA" target="CHTR" id="343" weight="0.7276646716223204" />
+      <edge source="KO" target="PEP" id="344" weight="0.7959187472127015" />
+      <edge source="KO" target="MCD" id="345" weight="0.6069028677301312" />
+      <edge source="KO" target="HON" id="346" weight="0.5416641322169629" />
+      <edge source="KO" target="MDLZ" id="347" weight="0.7090330832202851" />
+      <edge source="KO" target="KHC" id="348" weight="0.5638376265928478" />
+      <edge source="KO" target="AEP" id="349" weight="0.6088936873112941" />
+      <edge source="KO" target="CMS" id="350" weight="0.5896714765786218" />
+      <edge source="KO" target="D" id="351" weight="0.5014313004919829" />
+      <edge source="KO" target="WEC" id="352" weight="0.5819637625909371" />
+      <edge source="KO" target="KMB" id="353" weight="0.6389555173994388" />
+      <edge source="KO" target="EXC" id="354" weight="0.5110328332244939" />
+      <edge source="KO" target="CNP" id="355" weight="0.556124358173272" />
+      <edge source="KO" target="XEL" id="356" weight="0.5936753490697668" />
+      <edge source="INTC" target="QCOM" id="357" weight="0.5881279870238622" />
+      <edge source="INTC" target="TXN" id="358" weight="0.5911700826669642" />
+      <edge source="INTC" target="ADI" id="359" weight="0.6075692212859639" />
+      <edge source="INTC" target="AMAT" id="360" weight="0.5826805613492514" />
+      <edge source="INTC" target="MRVL" id="361" weight="0.5192182777624251" />
+      <edge source="INTC" target="LRCX" id="362" weight="0.5645724026189459" />
+      <edge source="INTC" target="INTU" id="363" weight="0.5008670333694338" />
+      <edge source="INTC" target="MCHP" id="364" weight="0.6023517348244675" />
+      <edge source="INTC" target="MU" id="365" weight="0.5492103263058522" />
+      <edge source="CSCO" target="ACN" id="366" weight="0.516391762726962" />
+      <edge source="CSCO" target="TXN" id="367" weight="0.5506688928846365" />
+      <edge source="CSCO" target="HON" id="368" weight="0.5186927369886777" />
+      <edge source="CSCO" target="BLK" id="369" weight="0.5003664261602359" />
+      <edge source="CSCO" target="ADI" id="370" weight="0.5178043382661595" />
+      <edge source="CSCO" target="ADP" id="371" weight="0.5185161480376644" />
+      <edge source="CSCO" target="MRVL" id="372" weight="0.5088559481479497" />
+      <edge source="CSCO" target="MCHP" id="373" weight="0.5247304367073667" />
+      <edge source="PEP" target="MCD" id="374" weight="0.615123282172752" />
+      <edge source="PEP" target="HON" id="375" weight="0.5045163901548907" />
+      <edge source="PEP" target="MDLZ" id="376" weight="0.7579172181344375" />
+      <edge source="PEP" target="KHC" id="377" weight="0.5865992569909528" />
+      <edge source="PEP" target="AEP" id="378" weight="0.5841010365817362" />
+      <edge source="PEP" target="CMS" id="379" weight="0.5241113100226343" />
+      <edge source="PEP" target="WEC" id="380" weight="0.543350264591204" />
+      <edge source="PEP" target="KMB" id="381" weight="0.6433110112024107" />
+      <edge source="PEP" target="GIS" id="382" weight="0.5368504091077988" />
+      <edge source="PEP" target="RSG" id="383" weight="0.5153902121582283" />
+      <edge source="PEP" target="WM" id="384" weight="0.5070933848960167" />
+      <edge source="PEP" target="XEL" id="385" weight="0.57264209054295" />
+      <edge source="ABT" target="DHR" id="386" weight="0.5646214009185545" />
+      <edge source="ABT" target="MDT" id="387" weight="0.6052013580290332" />
+      <edge source="ABT" target="TMO" id="388" weight="0.54743259148071" />
+      <edge source="ABT" target="BDX" id="389" weight="0.5736488120785067" />
+      <edge source="ABT" target="ISRG" id="390" weight="0.522272368453533" />
+      <edge source="ABT" target="SYK" id="391" weight="0.6120179374064051" />
+      <edge source="CRM" target="ACN" id="392" weight="0.536885746425727" />
+      <edge source="CRM" target="QCOM" id="393" weight="0.5323229847536695" />
+      <edge source="CRM" target="TXN" id="394" weight="0.5089974695813053" />
+      <edge source="CRM" target="BLK" id="395" weight="0.5259373582404654" />
+      <edge source="CRM" target="ADI" id="396" weight="0.5113219164456886" />
+      <edge source="CRM" target="AMAT" id="397" weight="0.5145556493857466" />
+      <edge source="CRM" target="MCO" id="398" weight="0.5149639848387412" />
+      <edge source="CRM" target="MRVL" id="399" weight="0.5039743284864927" />
+      <edge source="CRM" target="SQ" id="400" weight="0.5026182071628398" />
+      <edge source="CRM" target="SHOP" id="401" weight="0.527667874478598" />
+      <edge source="CRM" target="LRCX" id="402" weight="0.5018460557576346" />
+      <edge source="CRM" target="INTU" id="403" weight="0.6111562409681036" />
+      <edge source="CRM" target="ADSK" id="404" weight="0.5832507263396335" />
+      <edge source="CRM" target="ANSS" id="405" weight="0.5364636911287279" />
+      <edge source="CRM" target="MCHP" id="406" weight="0.5037856300967907" />
+      <edge source="CVX" target="CAT" id="407" weight="0.530627210223862" />
+      <edge source="CVX" target="EOG" id="408" weight="0.7926270216077743" />
+      <edge source="CVX" target="SLB" id="409" weight="0.7119714074080775" />
+      <edge source="CVX" target="OXY" id="410" weight="0.743877113147401" />
+      <edge source="CVX" target="DVN" id="411" weight="0.76703449657155" />
+      <edge source="CVX" target="VLO" id="412" weight="0.6421638502219422" />
+      <edge source="CVX" target="ADM" id="413" weight="0.5246880385191609" />
+      <edge source="CVX" target="APA" id="414" weight="0.7622566830499605" />
+      <edge source="CVX" target="HES" id="415" weight="0.8167066293983481" />
+      <edge source="CVX" target="WMB" id="416" weight="0.6629510097421012" />
+      <edge source="WMT" target="COST" id="417" weight="0.5865855911538506" />
+      <edge source="ACN" target="DHR" id="418" weight="0.5836421306907502" />
+      <edge source="ACN" target="QCOM" id="419" weight="0.599128244632161" />
+      <edge source="ACN" target="UPS" id="420" weight="0.546484407927256" />
+      <edge source="ACN" target="TXN" id="421" weight="0.6462963455744265" />
+      <edge source="ACN" target="IBM" id="422" weight="0.562270562371666" />
+      <edge source="ACN" target="HON" id="423" weight="0.5330037623771222" />
+      <edge source="ACN" target="F" id="424" weight="0.5192345887411046" />
+      <edge source="ACN" target="AXP" id="425" weight="0.5684767311050473" />
+      <edge source="ACN" target="BLK" id="426" weight="0.6529807940476958" />
+      <edge source="ACN" target="C" id="427" weight="0.5052750652763544" />
+      <edge source="ACN" target="GS" id="428" weight="0.5191526885259563" />
+      <edge source="ACN" target="TMO" id="429" weight="0.5703925767999297" />
+      <edge source="ACN" target="SPGI" id="430" weight="0.6264371082795686" />
+      <edge source="ACN" target="ADI" id="431" weight="0.6211386756038614" />
+      <edge source="ACN" target="AMAT" id="432" weight="0.6076825082140513" />
+      <edge source="ACN" target="ISRG" id="433" weight="0.5359344440417209" />
+      <edge source="ACN" target="ADP" id="434" weight="0.583836875843389" />
+      <edge source="ACN" target="PLD" id="435" weight="0.5553143012007296" />
+      <edge source="ACN" target="ZTS" id="436" weight="0.533473070409129" />
+      <edge source="ACN" target="MCO" id="437" weight="0.6628410675684383" />
+      <edge source="ACN" target="EMR" id="438" weight="0.5068443122502726" />
+      <edge source="ACN" target="ETN" id="439" weight="0.5472702111989548" />
+      <edge source="ACN" target="ITW" id="440" weight="0.634454565431258" />
+      <edge source="ACN" target="SPG" id="441" weight="0.5128610085708172" />
+      <edge source="ACN" target="STT" id="442" weight="0.5091753209926736" />
+      <edge source="ACN" target="MRVL" id="443" weight="0.592175307246187" />
+      <edge source="ACN" target="ECL" id="444" weight="0.6172061875562139" />
+      <edge source="ACN" target="AME" id="445" weight="0.6123782731432774" />
+      <edge source="ACN" target="PRU" id="446" weight="0.5474914100035585" />
+      <edge source="ACN" target="SQ" id="447" weight="0.5267745556785087" />
+      <edge source="ACN" target="LRCX" id="448" weight="0.569696221042672" />
+      <edge source="ACN" target="INTU" id="449" weight="0.6718681709391928" />
+      <edge source="ACN" target="ADSK" id="450" weight="0.6306637648816175" />
+      <edge source="ACN" target="ANSS" id="451" weight="0.6196906540178516" />
+      <edge source="ACN" target="CDNS" id="452" weight="0.5782279317066458" />
+      <edge source="ACN" target="CTSH" id="453" weight="0.6203971973887563" />
+      <edge source="ACN" target="MCHP" id="454" weight="0.6497985393132905" />
+      <edge source="ACN" target="MU" id="455" weight="0.5262535547055436" />
+      <edge source="NKE" target="UPS" id="456" weight="0.517553349271337" />
+      <edge source="NKE" target="TXN" id="457" weight="0.5019897107579033" />
+      <edge source="NKE" target="SBUX" id="458" weight="0.5452677370153984" />
+      <edge source="NKE" target="BLK" id="459" weight="0.5513033587367658" />
+      <edge source="NKE" target="EL" id="460" weight="0.5121010342997735" />
+      <edge source="NKE" target="MCO" id="461" weight="0.5337408882755423" />
+      <edge source="NKE" target="ITW" id="462" weight="0.5345491702101145" />
+      <edge source="NKE" target="MCHP" id="463" weight="0.5091734125813627" />
+      <edge source="MCD" target="HON" id="464" weight="0.529602507813663" />
+      <edge source="MCD" target="MDLZ" id="465" weight="0.5607153046982577" />
+      <edge source="MCD" target="KMB" id="466" weight="0.5297245948564127" />
+      <edge source="MCD" target="RSG" id="467" weight="0.5102746143741561" />
+      <edge source="DHR" target="UPS" id="468" weight="0.574107256030508" />
+      <edge source="DHR" target="TXN" id="469" weight="0.5228745058789955" />
+      <edge source="DHR" target="BLK" id="470" weight="0.5910783338514741" />
+      <edge source="DHR" target="C" id="471" weight="0.5039214614279778" />
+      <edge source="DHR" target="TMO" id="472" weight="0.8452956734369701" />
+      <edge source="DHR" target="SPGI" id="473" weight="0.5827426134175685" />
+      <edge source="DHR" target="CCI" id="474" weight="0.5088734690121742" />
+      <edge source="DHR" target="ADI" id="475" weight="0.5193970188074774" />
+      <edge source="DHR" target="ADP" id="476" weight="0.5668412602937923" />
+      <edge source="DHR" target="PLD" id="477" weight="0.5764109353002128" />
+      <edge source="DHR" target="ZTS" id="478" weight="0.5819542984181096" />
+      <edge source="DHR" target="MCO" id="479" weight="0.5800587297662373" />
+      <edge source="DHR" target="ITW" id="480" weight="0.5409893072262714" />
+      <edge source="DHR" target="ECL" id="481" weight="0.5602205473818732" />
+      <edge source="DHR" target="AME" id="482" weight="0.5655447179779707" />
+      <edge source="DHR" target="UNP" id="483" weight="0.5328170225887009" />
+      <edge source="DHR" target="SQ" id="484" weight="0.5275960825890704" />
+      <edge source="DHR" target="INTU" id="485" weight="0.5192532149053113" />
+      <edge source="DHR" target="ADSK" id="486" weight="0.5434339852023818" />
+      <edge source="DHR" target="MCHP" id="487" weight="0.5363349998608665" />
+      <edge source="QCOM" target="TXN" id="488" weight="0.7167055591139339" />
+      <edge source="QCOM" target="AXP" id="489" weight="0.5326684354868068" />
+      <edge source="QCOM" target="BLK" id="490" weight="0.6038455201699329" />
+      <edge source="QCOM" target="C" id="491" weight="0.527372700502357" />
+      <edge source="QCOM" target="SPGI" id="492" weight="0.5238336555300271" />
+      <edge source="QCOM" target="ADI" id="493" weight="0.7152694050173907" />
+      <edge source="QCOM" target="AMAT" id="494" weight="0.7157224601973937" />
+      <edge source="QCOM" target="PNC" id="495" weight="0.5155326193373765" />
+      <edge source="QCOM" target="MCO" id="496" weight="0.5414697295417051" />
+      <edge source="QCOM" target="ITW" id="497" weight="0.5047600553686981" />
+      <edge source="QCOM" target="MRVL" id="498" weight="0.6721139331918744" />
+      <edge source="QCOM" target="ECL" id="499" weight="0.5168586123670456" />
+      <edge source="QCOM" target="EXPE" id="500" weight="0.5111582697353142" />
+      <edge source="QCOM" target="PYPL" id="501" weight="0.5179426111775906" />
+      <edge source="QCOM" target="SQ" id="502" weight="0.5252638265331102" />
+      <edge source="QCOM" target="LRCX" id="503" weight="0.6907190616944048" />
+      <edge source="QCOM" target="INTU" id="504" weight="0.5991386877186454" />
+      <edge source="QCOM" target="ADSK" id="505" weight="0.5615483095707406" />
+      <edge source="QCOM" target="ANSS" id="506" weight="0.5709463206880171" />
+      <edge source="QCOM" target="CDNS" id="507" weight="0.5620464623714622" />
+      <edge source="QCOM" target="MCHP" id="508" weight="0.7242531075319258" />
+      <edge source="QCOM" target="MU" id="509" weight="0.6100569362084988" />
+      <edge source="COST" target="TXN" id="510" weight="0.5306093082399891" />
+      <edge source="COST" target="HON" id="511" weight="0.5153513799366121" />
+      <edge source="COST" target="BLK" id="512" weight="0.51527639104445" />
+      <edge source="COST" target="SPGI" id="513" weight="0.5141266785412432" />
+      <edge source="COST" target="AMAT" id="514" weight="0.5206597662677204" />
+      <edge source="COST" target="MCO" id="515" weight="0.5399446752398935" />
+      <edge source="COST" target="ITW" id="516" weight="0.500450052232594" />
+      <edge source="COST" target="INTU" id="517" weight="0.5165732256605844" />
+      <edge source="UPS" target="TXN" id="518" weight="0.5560107449753419" />
+      <edge source="UPS" target="HON" id="519" weight="0.501375687573551" />
+      <edge source="UPS" target="MMM" id="520" weight="0.5031273875680706" />
+      <edge source="UPS" target="GM" id="521" weight="0.5921844589395727" />
+      <edge source="UPS" target="F" id="522" weight="0.5428462115224545" />
+      <edge source="UPS" target="AXP" id="523" weight="0.5260214454629415" />
+      <edge source="UPS" target="BLK" id="524" weight="0.6052941918964676" />
+      <edge source="UPS" target="C" id="525" weight="0.5628571170972557" />
+      <edge source="UPS" target="GS" id="526" weight="0.5810016380078284" />
+      <edge source="UPS" target="TMO" id="527" weight="0.5510321142873928" />
+      <edge source="UPS" target="SPGI" id="528" weight="0.5231691438186081" />
+      <edge source="UPS" target="ADI" id="529" weight="0.5199088861313167" />
+      <edge source="UPS" target="AMAT" id="530" weight="0.5030004811555265" />
+      <edge source="UPS" target="PLD" id="531" weight="0.5318002126876188" />
+      <edge source="UPS" target="MCO" id="532" weight="0.5543193241787859" />
+      <edge source="UPS" target="CMI" id="533" weight="0.5169447893252156" />
+      <edge source="UPS" target="FDX" id="534" weight="0.6097802422251624" />
+      <edge source="UPS" target="EMR" id="535" weight="0.5534930871293314" />
+      <edge source="UPS" target="ITW" id="536" weight="0.630148303711874" />
+      <edge source="UPS" target="IP" id="537" weight="0.5952181686447688" />
+      <edge source="UPS" target="SPG" id="538" weight="0.558672249060754" />
+      <edge source="UPS" target="ECL" id="539" weight="0.510773031542329" />
+      <edge source="UPS" target="AME" id="540" weight="0.5413909026728121" />
+      <edge source="UPS" target="WMB" id="541" weight="0.5062052380624753" />
+      <edge source="UPS" target="PRU" id="542" weight="0.5321570237784179" />
+      <edge source="UPS" target="UNP" id="543" weight="0.5727133636523289" />
+      <edge source="UPS" target="SQ" id="544" weight="0.5104910667692948" />
+      <edge source="UPS" target="INTU" id="545" weight="0.5281227874084033" />
+      <edge source="UPS" target="ADSK" id="546" weight="0.5502414191076213" />
+      <edge source="UPS" target="MCHP" id="547" weight="0.5328840276877074" />
+      <edge source="UPS" target="TGT" id="548" weight="0.5312384093196911" />
+      <edge source="TXN" target="IBM" id="549" weight="0.5016674735981758" />
+      <edge source="TXN" target="HON" id="550" weight="0.5633198942324926" />
+      <edge source="TXN" target="SBUX" id="551" weight="0.5095677409793385" />
+      <edge source="TXN" target="GM" id="552" weight="0.530112972221847" />
+      <edge source="TXN" target="F" id="553" weight="0.5397189569854859" />
+      <edge source="TXN" target="CAT" id="554" weight="0.5069344492650457" />
+      <edge source="TXN" target="AXP" id="555" weight="0.5294812961900397" />
+      <edge source="TXN" target="BLK" id="556" weight="0.6737471340793373" />
+      <edge source="TXN" target="C" id="557" weight="0.5070771259192128" />
+      <edge source="TXN" target="GS" id="558" weight="0.527077422090391" />
+      <edge source="TXN" target="TMO" id="559" weight="0.5320363508511038" />
+      <edge source="TXN" target="SPGI" id="560" weight="0.5541143134895147" />
+      <edge source="TXN" target="ADI" id="561" weight="0.8370984734872953" />
+      <edge source="TXN" target="AMAT" id="562" weight="0.773124436692396" />
+      <edge source="TXN" target="ISRG" id="563" weight="0.5155592075374289" />
+      <edge source="TXN" target="ADP" id="564" weight="0.5662314748419944" />
+      <edge source="TXN" target="PLD" id="565" weight="0.5104313695836765" />
+      <edge source="TXN" target="MCO" id="566" weight="0.5884226331200824" />
+      <edge source="TXN" target="CMI" id="567" weight="0.5811106824444987" />
+      <edge source="TXN" target="JCI" id="568" weight="0.5496708450822722" />
+      <edge source="TXN" target="EMR" id="569" weight="0.5932697776997127" />
+      <edge source="TXN" target="ETN" id="570" weight="0.522010372077308" />
+      <edge source="TXN" target="ITW" id="571" weight="0.6504401022440942" />
+      <edge source="TXN" target="SPG" id="572" weight="0.5428295930658087" />
+      <edge source="TXN" target="MRVL" id="573" weight="0.695185897952382" />
+      <edge source="TXN" target="ECL" id="574" weight="0.5265855878156067" />
+      <edge source="TXN" target="AME" id="575" weight="0.6007928914853538" />
+      <edge source="TXN" target="PYPL" id="576" weight="0.5278125795798128" />
+      <edge source="TXN" target="SQ" id="577" weight="0.5791235358129517" />
+      <edge source="TXN" target="LRCX" id="578" weight="0.7585238611361543" />
+      <edge source="TXN" target="INTU" id="579" weight="0.6059224493744965" />
+      <edge source="TXN" target="ADSK" id="580" weight="0.6136026506584645" />
+      <edge source="TXN" target="ANSS" id="581" weight="0.5977844596706317" />
+      <edge source="TXN" target="CDNS" id="582" weight="0.5844507065300724" />
+      <edge source="TXN" target="CTSH" id="583" weight="0.5312134672740936" />
+      <edge source="TXN" target="MCHP" id="584" weight="0.850369397474416" />
+      <edge source="TXN" target="MU" id="585" weight="0.6247714077892721" />
+      <edge source="MDT" target="BDX" id="586" weight="0.5170271755292001" />
+      <edge source="MDT" target="ISRG" id="587" weight="0.5371984540593204" />
+      <edge source="MDT" target="SYK" id="588" weight="0.5852983405704085" />
+      <edge source="IBM" target="HON" id="589" weight="0.5057389944518149" />
+      <edge source="IBM" target="ITW" id="590" weight="0.531732674138605" />
+      <edge source="IBM" target="AME" id="591" weight="0.5006669449392488" />
+      <edge source="IBM" target="PRU" id="592" weight="0.549827228512081" />
+      <edge source="HON" target="GE" id="593" weight="0.5230559991925949" />
+      <edge source="HON" target="MMM" id="594" weight="0.5886483283756005" />
+      <edge source="HON" target="DE" id="595" weight="0.5285573867480912" />
+      <edge source="HON" target="CAT" id="596" weight="0.5700480242507765" />
+      <edge source="HON" target="AXP" id="597" weight="0.5164439905928501" />
+      <edge source="HON" target="BLK" id="598" weight="0.6340075763050346" />
+      <edge source="HON" target="C" id="599" weight="0.519576826844713" />
+      <edge source="HON" target="GS" id="600" weight="0.5805038375302563" />
+      <edge source="HON" target="SPGI" id="601" weight="0.6278365453539964" />
+      <edge source="HON" target="ADP" id="602" weight="0.5938477370134474" />
+      <edge source="HON" target="PLD" id="603" weight="0.5778744938254115" />
+      <edge source="HON" target="PNC" id="604" weight="0.5438253919335264" />
+      <edge source="HON" target="MCO" id="605" weight="0.5554708265851072" />
+      <edge source="HON" target="CMI" id="606" weight="0.6193611530650746" />
+      <edge source="HON" target="JCI" id="607" weight="0.6419031264192175" />
+      <edge source="HON" target="MET" id="608" weight="0.5832025342171231" />
+      <edge source="HON" target="AEP" id="609" weight="0.5429500626509502" />
+      <edge source="HON" target="O" id="610" weight="0.5279063856771526" />
+      <edge source="HON" target="EMR" id="611" weight="0.6512704220007444" />
+      <edge source="HON" target="ETN" id="612" weight="0.6157748142694086" />
+      <edge source="HON" target="ITW" id="613" weight="0.6755520482028188" />
+      <edge source="HON" target="AON" id="614" weight="0.530235095250218" />
+      <edge source="HON" target="WEC" id="615" weight="0.5059826114604251" />
+      <edge source="HON" target="AIG" id="616" weight="0.5366877486364237" />
+      <edge source="HON" target="SPG" id="617" weight="0.6010057261250621" />
+      <edge source="HON" target="STT" id="618" weight="0.5206158052778362" />
+      <edge source="HON" target="ECL" id="619" weight="0.5821539898151165" />
+      <edge source="HON" target="CNP" id="620" weight="0.5365883848671065" />
+      <edge source="HON" target="AME" id="621" weight="0.6820195338266165" />
+      <edge source="HON" target="PRU" id="622" weight="0.6131376000484546" />
+      <edge source="HON" target="UNP" id="623" weight="0.5328653167854419" />
+      <edge source="HON" target="XEL" id="624" weight="0.5305509461162803" />
+      <edge source="SBUX" target="BLK" id="625" weight="0.5271174001805973" />
+      <edge source="SBUX" target="SPGI" id="626" weight="0.5255851448125148" />
+      <edge source="SBUX" target="ADI" id="627" weight="0.5115190588464936" />
+      <edge source="SBUX" target="BKNG" id="628" weight="0.5180501563707276" />
+      <edge source="SBUX" target="EL" id="629" weight="0.5686581610125638" />
+      <edge source="SBUX" target="MCO" id="630" weight="0.5169195316248212" />
+      <edge source="SBUX" target="MCHP" id="631" weight="0.5054538061306071" />
+      <edge source="GE" target="MMM" id="632" weight="0.5404734580217734" />
+      <edge source="GE" target="BLK" id="633" weight="0.5065329087881774" />
+      <edge source="GE" target="C" id="634" weight="0.5070962556579788" />
+      <edge source="GE" target="EMR" id="635" weight="0.5019975803371867" />
+      <edge source="GE" target="ETN" id="636" weight="0.5055202513899172" />
+      <edge source="GE" target="ITW" id="637" weight="0.5557226276087254" />
+      <edge source="GE" target="AME" id="638" weight="0.5342590829619805" />
+      <edge source="GE" target="PRU" id="639" weight="0.5029974531313326" />
+      <edge source="BA" target="SPG" id="640" weight="0.5063619673496543" />
+      <edge source="MMM" target="CAT" id="641" weight="0.5102398117717031" />
+      <edge source="MMM" target="BLK" id="642" weight="0.5542702952067017" />
+      <edge source="MMM" target="C" id="643" weight="0.5220279140589008" />
+      <edge source="MMM" target="GS" id="644" weight="0.5183053936091447" />
+      <edge source="MMM" target="PLD" id="645" weight="0.5065422261231373" />
+      <edge source="MMM" target="PNC" id="646" weight="0.5436809081678426" />
+      <edge source="MMM" target="CMI" id="647" weight="0.5564209707987006" />
+      <edge source="MMM" target="MET" id="648" weight="0.5103881491977266" />
+      <edge source="MMM" target="EMR" id="649" weight="0.540324110140042" />
+      <edge source="MMM" target="ITW" id="650" weight="0.6191210917077569" />
+      <edge source="MMM" target="IP" id="651" weight="0.5072474305157044" />
+      <edge source="MMM" target="SPG" id="652" weight="0.5123815642080427" />
+      <edge source="MMM" target="PRU" id="653" weight="0.5497206683245268" />
+      <edge source="MMM" target="UNP" id="654" weight="0.5008646731978572" />
+      <edge source="GM" target="F" id="655" weight="0.8153558577860479" />
+      <edge source="GM" target="AXP" id="656" weight="0.5569620196577323" />
+      <edge source="GM" target="BLK" id="657" weight="0.5786108519013202" />
+      <edge source="GM" target="USB" id="658" weight="0.5325207594390076" />
+      <edge source="GM" target="C" id="659" weight="0.622652205229643" />
+      <edge source="GM" target="GS" id="660" weight="0.6233312895933196" />
+      <edge source="GM" target="ADI" id="661" weight="0.5070458720106494" />
+      <edge source="GM" target="PLD" id="662" weight="0.5107794981348491" />
+      <edge source="GM" target="WFC" id="663" weight="0.5511303849033763" />
+      <edge source="GM" target="PNC" id="664" weight="0.5529079887175934" />
+      <edge source="GM" target="MCO" id="665" weight="0.5094378965629797" />
+      <edge source="GM" target="CMI" id="666" weight="0.5548377069594818" />
+      <edge source="GM" target="JCI" id="667" weight="0.5404817399489323" />
+      <edge source="GM" target="MET" id="668" weight="0.5255227392950637" />
+      <edge source="GM" target="EMR" id="669" weight="0.5168863690862857" />
+      <edge source="GM" target="ITW" id="670" weight="0.5842345289757159" />
+      <edge source="GM" target="IP" id="671" weight="0.566529267218144" />
+      <edge source="GM" target="SPG" id="672" weight="0.6196096680022096" />
+      <edge source="GM" target="STT" id="673" weight="0.5339045976671197" />
+      <edge source="GM" target="AME" id="674" weight="0.5022736697472568" />
+      <edge source="GM" target="WMB" id="675" weight="0.5151884582001142" />
+      <edge source="GM" target="RCL" id="676" weight="0.559939272779554" />
+      <edge source="GM" target="PRU" id="677" weight="0.61280259621486" />
+      <edge source="GM" target="SQ" id="678" weight="0.5171198617502885" />
+      <edge source="GM" target="MCHP" id="679" weight="0.5448482313270829" />
+      <edge source="F" target="BLK" id="680" weight="0.567068848863197" />
+      <edge source="F" target="C" id="681" weight="0.5596283149195278" />
+      <edge source="F" target="GS" id="682" weight="0.5623581494518669" />
+      <edge source="F" target="SPGI" id="683" weight="0.5010518256335931" />
+      <edge source="F" target="ADI" id="684" weight="0.5045587543597735" />
+      <edge source="F" target="PLD" id="685" weight="0.5138962045519598" />
+      <edge source="F" target="MCO" id="686" weight="0.5373126823843847" />
+      <edge source="F" target="CMI" id="687" weight="0.5237208490753006" />
+      <edge source="F" target="JCI" id="688" weight="0.5088944495049772" />
+      <edge source="F" target="EMR" id="689" weight="0.5185653900010343" />
+      <edge source="F" target="ITW" id="690" weight="0.5648085265576775" />
+      <edge source="F" target="SPG" id="691" weight="0.5965333844555845" />
+      <edge source="F" target="RCL" id="692" weight="0.5217230117651614" />
+      <edge source="F" target="PRU" id="693" weight="0.5437777330379123" />
+      <edge source="F" target="SQ" id="694" weight="0.5072707796305783" />
+      <edge source="F" target="MCHP" id="695" weight="0.5560402740541336" />
+      <edge source="DE" target="CAT" id="696" weight="0.6839079780933849" />
+      <edge source="DE" target="GS" id="697" weight="0.5166810533793378" />
+      <edge source="DE" target="CMI" id="698" weight="0.6063265570625177" />
+      <edge source="DE" target="JCI" id="699" weight="0.5362515106391199" />
+      <edge source="DE" target="MET" id="700" weight="0.5085859613677784" />
+      <edge source="DE" target="EMR" id="701" weight="0.5817099664639171" />
+      <edge source="DE" target="ETN" id="702" weight="0.5293947162730657" />
+      <edge source="DE" target="ITW" id="703" weight="0.5432418291107087" />
+      <edge source="DE" target="AME" id="704" weight="0.5776805554512622" />
+      <edge source="CAT" target="AXP" id="705" weight="0.5228927107113199" />
+      <edge source="CAT" target="BLK" id="706" weight="0.5513302440896269" />
+      <edge source="CAT" target="C" id="707" weight="0.5458949471306135" />
+      <edge source="CAT" target="GS" id="708" weight="0.5796189331162188" />
+      <edge source="CAT" target="PNC" id="709" weight="0.5197132689106496" />
+      <edge source="CAT" target="CMI" id="710" weight="0.6861389377901377" />
+      <edge source="CAT" target="SLB" id="711" weight="0.537462042159391" />
+      <edge source="CAT" target="JCI" id="712" weight="0.6038857825059178" />
+      <edge source="CAT" target="MET" id="713" weight="0.5676627171062525" />
+      <edge source="CAT" target="EMR" id="714" weight="0.6505780688874006" />
+      <edge source="CAT" target="ETN" id="715" weight="0.6182339345534335" />
+      <edge source="CAT" target="ITW" id="716" weight="0.5657997545786806" />
+      <edge source="CAT" target="AIG" id="717" weight="0.527429905280896" />
+      <edge source="CAT" target="SPG" id="718" weight="0.5520401013466842" />
+      <edge source="CAT" target="STT" id="719" weight="0.5094461962805236" />
+      <edge source="CAT" target="HES" id="720" weight="0.5138135166544527" />
+      <edge source="CAT" target="AME" id="721" weight="0.6184741975651763" />
+      <edge source="CAT" target="WMB" id="722" weight="0.5022667697140827" />
+      <edge source="CAT" target="PRU" id="723" weight="0.5984432228237301" />
+      <edge source="AXP" target="BLK" id="724" weight="0.6550807021519344" />
+      <edge source="AXP" target="USB" id="725" weight="0.603448639376352" />
+      <edge source="AXP" target="C" id="726" weight="0.6410830826616921" />
+      <edge source="AXP" target="GS" id="727" weight="0.6020351371272603" />
+      <edge source="AXP" target="SPGI" id="728" weight="0.6019328821746384" />
+      <edge source="AXP" target="ADI" id="729" weight="0.5417935205868766" />
+      <edge source="AXP" target="BKNG" id="730" weight="0.5104839174781931" />
+      <edge source="AXP" target="PLD" id="731" weight="0.5163508728746413" />
+      <edge source="AXP" target="WFC" id="732" weight="0.6219219257159141" />
+      <edge source="AXP" target="PNC" id="733" weight="0.6237992403280661" />
+      <edge source="AXP" target="MCO" id="734" weight="0.6000856824740664" />
+      <edge source="AXP" target="CMI" id="735" weight="0.5321130587035476" />
+      <edge source="AXP" target="JCI" id="736" weight="0.550021873459944" />
+      <edge source="AXP" target="MET" id="737" weight="0.5724211726675055" />
+      <edge source="AXP" target="EMR" id="738" weight="0.508176135285911" />
+      <edge source="AXP" target="ETN" id="739" weight="0.5258787693879985" />
+      <edge source="AXP" target="ITW" id="740" weight="0.5832047244220145" />
+      <edge source="AXP" target="AIG" id="741" weight="0.562384248177398" />
+      <edge source="AXP" target="SPG" id="742" weight="0.5729097982040053" />
+      <edge source="AXP" target="STT" id="743" weight="0.6129934643116729" />
+      <edge source="AXP" target="MRVL" id="744" weight="0.5037231019236892" />
+      <edge source="AXP" target="ECL" id="745" weight="0.527042268313113" />
+      <edge source="AXP" target="VTR" id="746" weight="0.5056206176374554" />
+      <edge source="AXP" target="AME" id="747" weight="0.5545496797767527" />
+      <edge source="AXP" target="PRU" id="748" weight="0.6687316649135001" />
+      <edge source="AXP" target="PYPL" id="749" weight="0.5147588633864223" />
+      <edge source="AXP" target="SQ" id="750" weight="0.5727940112008825" />
+      <edge source="AXP" target="INTU" id="751" weight="0.5673174134158352" />
+      <edge source="AXP" target="ADSK" id="752" weight="0.5200598789551701" />
+      <edge source="AXP" target="MCHP" id="753" weight="0.5414276819486741" />
+      <edge source="LMT" target="NOC" id="754" weight="0.8135451480883147" />
+      <edge source="LMT" target="LHX" id="755" weight="0.707751561625434" />
+      <edge source="BLK" target="USB" id="756" weight="0.5782255843422989" />
+      <edge source="BLK" target="C" id="757" weight="0.6909808717276849" />
+      <edge source="BLK" target="GS" id="758" weight="0.673625877307584" />
+      <edge source="BLK" target="TMO" id="759" weight="0.5674743463310837" />
+      <edge source="BLK" target="SPGI" id="760" weight="0.7440626183812717" />
+      <edge source="BLK" target="CCI" id="761" weight="0.5328087117059622" />
+      <edge source="BLK" target="ADI" id="762" weight="0.6587455676877475" />
+      <edge source="BLK" target="AMAT" id="763" weight="0.6313778458183877" />
+      <edge source="BLK" target="ISRG" id="764" weight="0.5440991396401299" />
+      <edge source="BLK" target="BKNG" id="765" weight="0.5130064362321464" />
+      <edge source="BLK" target="ADP" id="766" weight="0.5399762551792697" />
+      <edge source="BLK" target="PLD" id="767" weight="0.6240229113366464" />
+      <edge source="BLK" target="WFC" id="768" weight="0.5978429624332843" />
+      <edge source="BLK" target="PNC" id="769" weight="0.6489118040884219" />
+      <edge source="BLK" target="MCO" id="770" weight="0.7679311618950876" />
+      <edge source="BLK" target="CMI" id="771" weight="0.558501560877742" />
+      <edge source="BLK" target="JCI" id="772" weight="0.6146820375337363" />
+      <edge source="BLK" target="MET" id="773" weight="0.565727336976256" />
+      <edge source="BLK" target="EMR" id="774" weight="0.6259089813716054" />
+      <edge source="BLK" target="ETN" id="775" weight="0.5508498167948607" />
+      <edge source="BLK" target="ITW" id="776" weight="0.7045089585006371" />
+      <edge source="BLK" target="IP" id="777" weight="0.5101359994044917" />
+      <edge source="BLK" target="AIG" id="778" weight="0.528432596567525" />
+      <edge source="BLK" target="SPG" id="779" weight="0.6215941069068782" />
+      <edge source="BLK" target="STT" id="780" weight="0.6387984425130068" />
+      <edge source="BLK" target="MRVL" id="781" weight="0.5665070310828751" />
+      <edge source="BLK" target="ECL" id="782" weight="0.6293073647592446" />
+      <edge source="BLK" target="VTR" id="783" weight="0.5001190068160584" />
+      <edge source="BLK" target="AME" id="784" weight="0.6370175965320535" />
+      <edge source="BLK" target="PRU" id="785" weight="0.6701238730155726" />
+      <edge source="BLK" target="UNP" id="786" weight="0.5588831099099258" />
+      <edge source="BLK" target="PYPL" id="787" weight="0.5748077618362045" />
+      <edge source="BLK" target="SQ" id="788" weight="0.6277775714792042" />
+      <edge source="BLK" target="SHOP" id="789" weight="0.5478144648826314" />
+      <edge source="BLK" target="LRCX" id="790" weight="0.6138155756879016" />
+      <edge source="BLK" target="INTU" id="791" weight="0.6283358605758362" />
+      <edge source="BLK" target="ADSK" id="792" weight="0.6324891614523999" />
+      <edge source="BLK" target="ANSS" id="793" weight="0.5876449630701945" />
+      <edge source="BLK" target="CDNS" id="794" weight="0.5245211275079447" />
+      <edge source="BLK" target="CTSH" id="795" weight="0.5069007550668648" />
+      <edge source="BLK" target="MCHP" id="796" weight="0.6547538180885754" />
+      <edge source="BLK" target="MU" id="797" weight="0.5083819551967772" />
+      <edge source="USB" target="C" id="798" weight="0.7057214393715817" />
+      <edge source="USB" target="GS" id="799" weight="0.613834803163492" />
+      <edge source="USB" target="SCHW" id="800" weight="0.5557666730584324" />
+      <edge source="USB" target="WFC" id="801" weight="0.7373944146632199" />
+      <edge source="USB" target="PNC" id="802" weight="0.7767220120564398" />
+      <edge source="USB" target="MET" id="803" weight="0.6765259225963525" />
+      <edge source="USB" target="AIG" id="804" weight="0.664261951318668" />
+      <edge source="USB" target="SPG" id="805" weight="0.5812880459923621" />
+      <edge source="USB" target="STT" id="806" weight="0.6190744110602602" />
+      <edge source="USB" target="PRU" id="807" weight="0.7254433646380202" />
+      <edge source="C" target="GS" id="808" weight="0.7200263539723486" />
+      <edge source="C" target="TMO" id="809" weight="0.5310043161650757" />
+      <edge source="C" target="SPGI" id="810" weight="0.5313227721416861" />
+      <edge source="C" target="ADI" id="811" weight="0.5554569167090139" />
+      <edge source="C" target="SCHW" id="812" weight="0.5107507369632537" />
+      <edge source="C" target="FIS" id="813" weight="0.5069967771751472" />
+      <edge source="C" target="WFC" id="814" weight="0.7882406191638154" />
+      <edge source="C" target="PNC" id="815" weight="0.7309205768629231" />
+      <edge source="C" target="MCO" id="816" weight="0.568944053986478" />
+      <edge source="C" target="CMI" id="817" weight="0.5702519602581646" />
+      <edge source="C" target="JCI" id="818" weight="0.5666742083726385" />
+      <edge source="C" target="MET" id="819" weight="0.6646080254611243" />
+      <edge source="C" target="EMR" id="820" weight="0.5418974027103355" />
+      <edge source="C" target="ITW" id="821" weight="0.5917136539891877" />
+      <edge source="C" target="IP" id="822" weight="0.555191065868375" />
+      <edge source="C" target="AIG" id="823" weight="0.647368854461213" />
+      <edge source="C" target="SPG" id="824" weight="0.591492588759316" />
+      <edge source="C" target="STT" id="825" weight="0.708618926093743" />
+      <edge source="C" target="EXPE" id="826" weight="0.5303328950488055" />
+      <edge source="C" target="AME" id="827" weight="0.5141470714101902" />
+      <edge source="C" target="WMB" id="828" weight="0.5056585178383125" />
+      <edge source="C" target="RCL" id="829" weight="0.5066947950408297" />
+      <edge source="C" target="PRU" id="830" weight="0.7822452680633335" />
+      <edge source="C" target="UNP" id="831" weight="0.5174461611032464" />
+      <edge source="C" target="SQ" id="832" weight="0.5874306893845617" />
+      <edge source="C" target="MCHP" id="833" weight="0.5463978269939684" />
+      <edge source="GS" target="SPGI" id="834" weight="0.5348118313602589" />
+      <edge source="GS" target="ADI" id="835" weight="0.5165584878518671" />
+      <edge source="GS" target="SCHW" id="836" weight="0.5262475578073859" />
+      <edge source="GS" target="PLD" id="837" weight="0.5623146450562279" />
+      <edge source="GS" target="WFC" id="838" weight="0.696747246764101" />
+      <edge source="GS" target="PNC" id="839" weight="0.6518190053789255" />
+      <edge source="GS" target="MCO" id="840" weight="0.5547443794661446" />
+      <edge source="GS" target="CMI" id="841" weight="0.6027638705259212" />
+      <edge source="GS" target="JCI" id="842" weight="0.5780489474264032" />
+      <edge source="GS" target="MET" id="843" weight="0.6442318150414726" />
+      <edge source="GS" target="EMR" id="844" weight="0.5928178445598604" />
+      <edge source="GS" target="ETN" id="845" weight="0.5253670512392467" />
+      <edge source="GS" target="ITW" id="846" weight="0.590449040657032" />
+      <edge source="GS" target="IP" id="847" weight="0.5340456029598577" />
+      <edge source="GS" target="AIG" id="848" weight="0.5716464750872452" />
+      <edge source="GS" target="SPG" id="849" weight="0.6155028742985225" />
+      <edge source="GS" target="STT" id="850" weight="0.622614307107834" />
+      <edge source="GS" target="AME" id="851" weight="0.5605114676602984" />
+      <edge source="GS" target="WMB" id="852" weight="0.5330045405147741" />
+      <edge source="GS" target="PRU" id="853" weight="0.6963865655514044" />
+      <edge source="GS" target="UNP" id="854" weight="0.5029133906432659" />
+      <edge source="GS" target="MCHP" id="855" weight="0.5149007482598051" />
+      <edge source="TMO" target="SPGI" id="856" weight="0.583568563896534" />
+      <edge source="TMO" target="ADI" id="857" weight="0.5057696570838373" />
+      <edge source="TMO" target="SYK" id="858" weight="0.5089645792005468" />
+      <edge source="TMO" target="ADP" id="859" weight="0.5386133041615377" />
+      <edge source="TMO" target="PLD" id="860" weight="0.5656252230212976" />
+      <edge source="TMO" target="ZTS" id="861" weight="0.5799879854954584" />
+      <edge source="TMO" target="MCO" id="862" weight="0.5756752602748546" />
+      <edge source="TMO" target="ITW" id="863" weight="0.5164358522657911" />
+      <edge source="TMO" target="ECL" id="864" weight="0.5511685231363921" />
+      <edge source="TMO" target="AME" id="865" weight="0.5233050886500923" />
+      <edge source="TMO" target="SQ" id="866" weight="0.5068414657757876" />
+      <edge source="TMO" target="INTU" id="867" weight="0.5479474710124698" />
+      <edge source="TMO" target="ADSK" id="868" weight="0.5441343536013103" />
+      <edge source="TMO" target="MCHP" id="869" weight="0.5215282646259306" />
+      <edge source="SPGI" target="CCI" id="870" weight="0.6052131647203791" />
+      <edge source="SPGI" target="ADI" id="871" weight="0.5538075020351684" />
+      <edge source="SPGI" target="AMAT" id="872" weight="0.5120918756094781" />
+      <edge source="SPGI" target="ISRG" id="873" weight="0.5720473418841913" />
+      <edge source="SPGI" target="SYK" id="874" weight="0.5588325686823917" />
+      <edge source="SPGI" target="ADP" id="875" weight="0.5416396394580136" />
+      <edge source="SPGI" target="PLD" id="876" weight="0.6541212742833082" />
+      <edge source="SPGI" target="ZTS" id="877" weight="0.5711233655038754" />
+      <edge source="SPGI" target="PNC" id="878" weight="0.5057345227232157" />
+      <edge source="SPGI" target="MCO" id="879" weight="0.894567663345339" />
+      <edge source="SPGI" target="JCI" id="880" weight="0.5248057163846985" />
+      <edge source="SPGI" target="O" id="881" weight="0.5541594893354675" />
+      <edge source="SPGI" target="EMR" id="882" weight="0.5070948919449267" />
+      <edge source="SPGI" target="ETN" id="883" weight="0.5128320610238065" />
+      <edge source="SPGI" target="ITW" id="884" weight="0.6367952110178625" />
+      <edge source="SPGI" target="AON" id="885" weight="0.5366900571132054" />
+      <edge source="SPGI" target="SPG" id="886" weight="0.5886461603796856" />
+      <edge source="SPGI" target="STT" id="887" weight="0.5117161792057167" />
+      <edge source="SPGI" target="ECL" id="888" weight="0.6457947857083656" />
+      <edge source="SPGI" target="VTR" id="889" weight="0.5152312686304663" />
+      <edge source="SPGI" target="AME" id="890" weight="0.5940747411759318" />
+      <edge source="SPGI" target="PRU" id="891" weight="0.5289186086306621" />
+      <edge source="SPGI" target="UNP" id="892" weight="0.5031133849188848" />
+      <edge source="SPGI" target="PYPL" id="893" weight="0.5291668610674545" />
+      <edge source="SPGI" target="SQ" id="894" weight="0.5809056655441486" />
+      <edge source="SPGI" target="SHOP" id="895" weight="0.5438285112304304" />
+      <edge source="SPGI" target="INTU" id="896" weight="0.6500852452392232" />
+      <edge source="SPGI" target="ADSK" id="897" weight="0.6259570317279152" />
+      <edge source="SPGI" target="ANSS" id="898" weight="0.5898879121719155" />
+      <edge source="SPGI" target="CDNS" id="899" weight="0.552552439223846" />
+      <edge source="SPGI" target="MCHP" id="900" weight="0.5143100606733016" />
+      <edge source="CCI" target="PLD" id="901" weight="0.6631491046666423" />
+      <edge source="CCI" target="MCO" id="902" weight="0.5851711480596632" />
+      <edge source="CCI" target="PSA" id="903" weight="0.593814286556769" />
+      <edge source="CCI" target="AEP" id="904" weight="0.5587916668327567" />
+      <edge source="CCI" target="CMS" id="905" weight="0.6031380647766542" />
+      <edge source="CCI" target="O" id="906" weight="0.6188536828742416" />
+      <edge source="CCI" target="D" id="907" weight="0.5214481397625675" />
+      <edge source="CCI" target="WEC" id="908" weight="0.6074241844584448" />
+      <edge source="CCI" target="SPG" id="909" weight="0.5670293684722526" />
+      <edge source="CCI" target="EXC" id="910" weight="0.5036976411389118" />
+      <edge source="CCI" target="ECL" id="911" weight="0.5211415815982099" />
+      <edge source="CCI" target="CNP" id="912" weight="0.5377095395137954" />
+      <edge source="CCI" target="VTR" id="913" weight="0.5575918137756977" />
+      <edge source="CCI" target="XEL" id="914" weight="0.5855762553193334" />
+      <edge source="ADI" target="AMAT" id="915" weight="0.7690726612442109" />
+      <edge source="ADI" target="ISRG" id="916" weight="0.5251955477253792" />
+      <edge source="ADI" target="BKNG" id="917" weight="0.5036096879830192" />
+      <edge source="ADI" target="ADP" id="918" weight="0.5109310167592117" />
+      <edge source="ADI" target="MCO" id="919" weight="0.5958522787918464" />
+      <edge source="ADI" target="CMI" id="920" weight="0.5626922885247281" />
+      <edge source="ADI" target="EMR" id="921" weight="0.5660553401107851" />
+      <edge source="ADI" target="ETN" id="922" weight="0.5110263434022437" />
+      <edge source="ADI" target="ITW" id="923" weight="0.5930367861622288" />
+      <edge source="ADI" target="SPG" id="924" weight="0.5324927586996744" />
+      <edge source="ADI" target="STT" id="925" weight="0.5037736635620179" />
+      <edge source="ADI" target="MRVL" id="926" weight="0.669787578396173" />
+      <edge source="ADI" target="ECL" id="927" weight="0.5393471555996697" />
+      <edge source="ADI" target="AME" id="928" weight="0.5978306727915849" />
+      <edge source="ADI" target="PYPL" id="929" weight="0.5119298945294427" />
+      <edge source="ADI" target="SQ" id="930" weight="0.6039655753986249" />
+      <edge source="ADI" target="SHOP" id="931" weight="0.520403332008929" />
+      <edge source="ADI" target="LRCX" id="932" weight="0.7428431502536718" />
+      <edge source="ADI" target="INTU" id="933" weight="0.6554418540360786" />
+      <edge source="ADI" target="ADSK" id="934" weight="0.6189261709064441" />
+      <edge source="ADI" target="ANSS" id="935" weight="0.5773825287232823" />
+      <edge source="ADI" target="CDNS" id="936" weight="0.5888296485446934" />
+      <edge source="ADI" target="CTSH" id="937" weight="0.525762690669925" />
+      <edge source="ADI" target="MCHP" id="938" weight="0.8850403544951153" />
+      <edge source="ADI" target="MU" id="939" weight="0.5849666686793464" />
+      <edge source="AMAT" target="ISRG" id="940" weight="0.5060475723812167" />
+      <edge source="AMAT" target="MCO" id="941" weight="0.5762073326106191" />
+      <edge source="AMAT" target="EMR" id="942" weight="0.5019531282650316" />
+      <edge source="AMAT" target="ETN" id="943" weight="0.501271218860583" />
+      <edge source="AMAT" target="ITW" id="944" weight="0.5789472685981043" />
+      <edge source="AMAT" target="MRVL" id="945" weight="0.7084180326924054" />
+      <edge source="AMAT" target="ECL" id="946" weight="0.5095821563906618" />
+      <edge source="AMAT" target="AME" id="947" weight="0.5476373875176548" />
+      <edge source="AMAT" target="SQ" id="948" weight="0.548601125737467" />
+      <edge source="AMAT" target="LRCX" id="949" weight="0.9220138957017393" />
+      <edge source="AMAT" target="INTU" id="950" weight="0.6027428767892445" />
+      <edge source="AMAT" target="ADSK" id="951" weight="0.5961045151390354" />
+      <edge source="AMAT" target="ANSS" id="952" weight="0.5963374373649506" />
+      <edge source="AMAT" target="CDNS" id="953" weight="0.6313122579386657" />
+      <edge source="AMAT" target="MCHP" id="954" weight="0.8053686047155966" />
+      <edge source="AMAT" target="MU" id="955" weight="0.6763605268809177" />
+      <edge source="ISRG" target="SYK" id="956" weight="0.6679545130561693" />
+      <edge source="ISRG" target="MCO" id="957" weight="0.5981287479796539" />
+      <edge source="ISRG" target="ECL" id="958" weight="0.5233214872750653" />
+      <edge source="ISRG" target="INTU" id="959" weight="0.561243079300315" />
+      <edge source="ISRG" target="ADSK" id="960" weight="0.5393893034286942" />
+      <edge source="ISRG" target="ANSS" id="961" weight="0.5087141905838576" />
+      <edge source="ISRG" target="MCHP" id="962" weight="0.5108400467681394" />
+      <edge source="BKNG" target="MCO" id="963" weight="0.5268550804228754" />
+      <edge source="BKNG" target="ITW" id="964" weight="0.505793666254039" />
+      <edge source="BKNG" target="EXPE" id="965" weight="0.6444668252166943" />
+      <edge source="BKNG" target="AME" id="966" weight="0.5344822477364002" />
+      <edge source="BKNG" target="RCL" id="967" weight="0.5613021521538557" />
+      <edge source="BKNG" target="INTU" id="968" weight="0.5327099741823944" />
+      <edge source="BKNG" target="ADSK" id="969" weight="0.5048009198036976" />
+      <edge source="SYK" target="MCO" id="970" weight="0.5773631906597572" />
+      <edge source="SYK" target="ECL" id="971" weight="0.5554061085286754" />
+      <edge source="SYK" target="INTU" id="972" weight="0.5260238300493524" />
+      <edge source="SCHW" target="WFC" id="973" weight="0.5767547779569002" />
+      <edge source="SCHW" target="PNC" id="974" weight="0.5433106647552327" />
+      <edge source="SCHW" target="MET" id="975" weight="0.5286561728724399" />
+      <edge source="SCHW" target="STT" id="976" weight="0.5244258845380754" />
+      <edge source="SCHW" target="PRU" id="977" weight="0.552165101040264" />
+      <edge source="MDLZ" target="KHC" id="978" weight="0.577233096260758" />
+      <edge source="MDLZ" target="AEP" id="979" weight="0.5522253912525544" />
+      <edge source="MDLZ" target="CMS" id="980" weight="0.5195600181497714" />
+      <edge source="MDLZ" target="WEC" id="981" weight="0.5127954592055776" />
+      <edge source="MDLZ" target="KMB" id="982" weight="0.610299077259166" />
+      <edge source="MDLZ" target="GIS" id="983" weight="0.5300070071862225" />
+      <edge source="MDLZ" target="XEL" id="984" weight="0.5419039791784808" />
+      <edge source="ADP" target="PLD" id="985" weight="0.5280106764198994" />
+      <edge source="ADP" target="MCO" id="986" weight="0.5182008505823711" />
+      <edge source="ADP" target="EMR" id="987" weight="0.5297789044465313" />
+      <edge source="ADP" target="ITW" id="988" weight="0.5464870461487398" />
+      <edge source="ADP" target="AON" id="989" weight="0.5140498048020191" />
+      <edge source="ADP" target="AME" id="990" weight="0.5885889480440539" />
+      <edge source="ADP" target="INTU" id="991" weight="0.5892135456066206" />
+      <edge source="ADP" target="ADSK" id="992" weight="0.5354423375115887" />
+      <edge source="ADP" target="MCHP" id="993" weight="0.5320963003858199" />
+      <edge source="FIS" target="CTSH" id="994" weight="0.5450936911637856" />
+      <edge source="PLD" target="PNC" id="995" weight="0.5292867209634726" />
+      <edge source="PLD" target="MCO" id="996" weight="0.6414195944187174" />
+      <edge source="PLD" target="PSA" id="997" weight="0.724677727770165" />
+      <edge source="PLD" target="JCI" id="998" weight="0.5295800555185128" />
+      <edge source="PLD" target="AEP" id="999" weight="0.5655120361799505" />
+      <edge source="PLD" target="CMS" id="1000" weight="0.5821421378953805" />
+      <edge source="PLD" target="O" id="1001" weight="0.7147426104016684" />
+      <edge source="PLD" target="EMR" id="1002" weight="0.5224801772577958" />
+      <edge source="PLD" target="D" id="1003" weight="0.5100515714533772" />
+      <edge source="PLD" target="ITW" id="1004" weight="0.5803427039053712" />
+      <edge source="PLD" target="WEC" id="1005" weight="0.5650722444307054" />
+      <edge source="PLD" target="SPG" id="1006" weight="0.6967699424481542" />
+      <edge source="PLD" target="ECL" id="1007" weight="0.5724046966411191" />
+      <edge source="PLD" target="CNP" id="1008" weight="0.5534339556965451" />
+      <edge source="PLD" target="VTR" id="1009" weight="0.6944159041220841" />
+      <edge source="PLD" target="AME" id="1010" weight="0.5805844429953565" />
+      <edge source="PLD" target="PRU" id="1011" weight="0.5364864988766772" />
+      <edge source="PLD" target="UNP" id="1012" weight="0.5332274866646696" />
+      <edge source="PLD" target="SQ" id="1013" weight="0.514934864988625" />
+      <edge source="PLD" target="XEL" id="1014" weight="0.5513435031273684" />
+      <edge source="PLD" target="INTU" id="1015" weight="0.5333309493701696" />
+      <edge source="PLD" target="ADSK" id="1016" weight="0.5384926962447528" />
+      <edge source="ZTS" target="MCO" id="1017" weight="0.6034538998183945" />
+      <edge source="ZTS" target="ECL" id="1018" weight="0.5920229748646831" />
+      <edge source="ZTS" target="INTU" id="1019" weight="0.5535162888500494" />
+      <edge source="ZTS" target="ADSK" id="1020" weight="0.5187040427289943" />
+      <edge source="ZTS" target="CTSH" id="1021" weight="0.5048111739210859" />
+      <edge source="WFC" target="PNC" id="1022" weight="0.7383716815341939" />
+      <edge source="WFC" target="CMI" id="1023" weight="0.5191724749063211" />
+      <edge source="WFC" target="MET" id="1024" weight="0.6952184890484129" />
+      <edge source="WFC" target="ITW" id="1025" weight="0.5227322413508065" />
+      <edge source="WFC" target="AIG" id="1026" weight="0.6281468015281415" />
+      <edge source="WFC" target="SPG" id="1027" weight="0.5469639235723552" />
+      <edge source="WFC" target="STT" id="1028" weight="0.6033647115971277" />
+      <edge source="WFC" target="PRU" id="1029" weight="0.7536814478959187" />
+      <edge source="PNC" target="MCO" id="1030" weight="0.5031977576076974" />
+      <edge source="PNC" target="CMI" id="1031" weight="0.5620765149083689" />
+      <edge source="PNC" target="JCI" id="1032" weight="0.5348129066944787" />
+      <edge source="PNC" target="MET" id="1033" weight="0.6779100691768941" />
+      <edge source="PNC" target="EMR" id="1034" weight="0.5251950207239461" />
+      <edge source="PNC" target="ITW" id="1035" weight="0.5601017001984048" />
+      <edge source="PNC" target="IP" id="1036" weight="0.5150237350746077" />
+      <edge source="PNC" target="AIG" id="1037" weight="0.6392342446249958" />
+      <edge source="PNC" target="SPG" id="1038" weight="0.62662715276399" />
+      <edge source="PNC" target="STT" id="1039" weight="0.6524197211528576" />
+      <edge source="PNC" target="AME" id="1040" weight="0.5175511245521894" />
+      <edge source="PNC" target="PRU" id="1041" weight="0.750513582360012" />
+      <edge source="PNC" target="UNP" id="1042" weight="0.5058292840861933" />
+      <edge source="PNC" target="SQ" id="1043" weight="0.5366273567007519" />
+      <edge source="MCO" target="JCI" id="1044" weight="0.5547247031675664" />
+      <edge source="MCO" target="O" id="1045" weight="0.5164254266333941" />
+      <edge source="MCO" target="EMR" id="1046" weight="0.5149000728445622" />
+      <edge source="MCO" target="ITW" id="1047" weight="0.6618102762233258" />
+      <edge source="MCO" target="AON" id="1048" weight="0.5447240765758669" />
+      <edge source="MCO" target="SPG" id="1049" weight="0.6055293280024595" />
+      <edge source="MCO" target="STT" id="1050" weight="0.5161198537327325" />
+      <edge source="MCO" target="MRVL" id="1051" weight="0.5139103225778382" />
+      <edge source="MCO" target="ECL" id="1052" weight="0.6486266949725268" />
+      <edge source="MCO" target="EXPE" id="1053" weight="0.509984979534458" />
+      <edge source="MCO" target="VTR" id="1054" weight="0.512815831721592" />
+      <edge source="MCO" target="AME" id="1055" weight="0.6088278048851055" />
+      <edge source="MCO" target="PRU" id="1056" weight="0.5346060604282519" />
+      <edge source="MCO" target="PYPL" id="1057" weight="0.5613458568015149" />
+      <edge source="MCO" target="SQ" id="1058" weight="0.6197171855687297" />
+      <edge source="MCO" target="SHOP" id="1059" weight="0.5712596183997887" />
+      <edge source="MCO" target="LRCX" id="1060" weight="0.560449835421509" />
+      <edge source="MCO" target="INTU" id="1061" weight="0.6633111190660402" />
+      <edge source="MCO" target="ADSK" id="1062" weight="0.6824777368942037" />
+      <edge source="MCO" target="ANSS" id="1063" weight="0.6110373412880026" />
+      <edge source="MCO" target="CDNS" id="1064" weight="0.5413925786914818" />
+      <edge source="MCO" target="MCHP" id="1065" weight="0.5727894786624216" />
+      <edge source="CMI" target="JCI" id="1066" weight="0.6036539088529138" />
+      <edge source="CMI" target="MET" id="1067" weight="0.5823995157555839" />
+      <edge source="CMI" target="EMR" id="1068" weight="0.6311850032611558" />
+      <edge source="CMI" target="ETN" id="1069" weight="0.5851141993820174" />
+      <edge source="CMI" target="ITW" id="1070" weight="0.674417534980913" />
+      <edge source="CMI" target="SPG" id="1071" weight="0.6004006096430641" />
+      <edge source="CMI" target="STT" id="1072" weight="0.5184284762080726" />
+      <edge source="CMI" target="DXC" id="1073" weight="0.5193290209092168" />
+      <edge source="CMI" target="EXPE" id="1074" weight="0.5380317586310926" />
+      <edge source="CMI" target="AME" id="1075" weight="0.6240194724653189" />
+      <edge source="CMI" target="PRU" id="1076" weight="0.6459631068696644" />
+      <edge source="CMI" target="MCHP" id="1077" weight="0.5667152613592333" />
+      <edge source="EOG" target="SLB" id="1078" weight="0.7809614262088693" />
+      <edge source="EOG" target="OXY" id="1079" weight="0.7674717444542577" />
+      <edge source="EOG" target="DVN" id="1080" weight="0.8449683192480504" />
+      <edge source="EOG" target="VLO" id="1081" weight="0.6484674231953185" />
+      <edge source="EOG" target="APA" id="1082" weight="0.8473572608623531" />
+      <edge source="EOG" target="HES" id="1083" weight="0.8627939724680921" />
+      <edge source="EOG" target="WMB" id="1084" weight="0.6668727258436589" />
+      <edge source="SLB" target="OXY" id="1085" weight="0.6664954706450272" />
+      <edge source="SLB" target="DVN" id="1086" weight="0.7333107024651601" />
+      <edge source="SLB" target="VLO" id="1087" weight="0.6103136708139981" />
+      <edge source="SLB" target="APA" id="1088" weight="0.7644544921595061" />
+      <edge source="SLB" target="HES" id="1089" weight="0.7879526402732054" />
+      <edge source="SLB" target="WMB" id="1090" weight="0.5867933095910691" />
+      <edge source="OXY" target="DVN" id="1091" weight="0.7886542135978415" />
+      <edge source="OXY" target="VLO" id="1092" weight="0.5982495153818657" />
+      <edge source="OXY" target="APA" id="1093" weight="0.7585643342990476" />
+      <edge source="OXY" target="HES" id="1094" weight="0.7615918774404952" />
+      <edge source="OXY" target="WMB" id="1095" weight="0.5937273814849546" />
+      <edge source="PSA" target="AEP" id="1096" weight="0.5152095518585463" />
+      <edge source="PSA" target="CMS" id="1097" weight="0.5102879736354335" />
+      <edge source="PSA" target="O" id="1098" weight="0.6213143298596613" />
+      <edge source="PSA" target="WEC" id="1099" weight="0.5511020507742697" />
+      <edge source="PSA" target="SPG" id="1100" weight="0.5390843242874647" />
+      <edge source="PSA" target="CNP" id="1101" weight="0.5092148114816177" />
+      <edge source="PSA" target="VTR" id="1102" weight="0.5895378793839695" />
+      <edge source="PSA" target="XEL" id="1103" weight="0.5183503470522494" />
+      <edge source="KHC" target="AEP" id="1104" weight="0.5046346133144473" />
+      <edge source="KHC" target="KMB" id="1105" weight="0.5056513472445449" />
+      <edge source="KHC" target="GIS" id="1106" weight="0.602636622888168" />
+      <edge source="JCI" target="MET" id="1107" weight="0.5532286010588331" />
+      <edge source="JCI" target="EMR" id="1108" weight="0.5794414940720338" />
+      <edge source="JCI" target="ETN" id="1109" weight="0.6849926138524631" />
+      <edge source="JCI" target="ITW" id="1110" weight="0.6513181920309404" />
+      <edge source="JCI" target="AIG" id="1111" weight="0.5540262864195062" />
+      <edge source="JCI" target="SPG" id="1112" weight="0.6070369207599234" />
+      <edge source="JCI" target="STT" id="1113" weight="0.5028458319591911" />
+      <edge source="JCI" target="AME" id="1114" weight="0.7070131605632981" />
+      <edge source="JCI" target="PRU" id="1115" weight="0.6119764662979272" />
+      <edge source="JCI" target="MCHP" id="1116" weight="0.5153007131638718" />
+      <edge source="MET" target="EMR" id="1117" weight="0.5535661617436654" />
+      <edge source="MET" target="ETN" id="1118" weight="0.5778735335005317" />
+      <edge source="MET" target="ITW" id="1119" weight="0.54169472035421" />
+      <edge source="MET" target="ADM" id="1120" weight="0.5069793527028247" />
+      <edge source="MET" target="ALL" id="1121" weight="0.5136223586018179" />
+      <edge source="MET" target="AIG" id="1122" weight="0.7417784475626172" />
+      <edge source="MET" target="TRV" id="1123" weight="0.5417469340559882" />
+      <edge source="MET" target="SPG" id="1124" weight="0.5574035723200489" />
+      <edge source="MET" target="STT" id="1125" weight="0.6313557628007935" />
+      <edge source="MET" target="AME" id="1126" weight="0.5448645216047616" />
+      <edge source="MET" target="WMB" id="1127" weight="0.500255303176018" />
+      <edge source="MET" target="PRU" id="1128" weight="0.8697377106636961" />
+      <edge source="FDX" target="IP" id="1129" weight="0.5586195953858042" />
+      <edge source="AEP" target="CMS" id="1130" weight="0.8834360284161001" />
+      <edge source="AEP" target="O" id="1131" weight="0.591036074463926" />
+      <edge source="AEP" target="D" id="1132" weight="0.7333876401200877" />
+      <edge source="AEP" target="WEC" id="1133" weight="0.8807007092162099" />
+      <edge source="AEP" target="KMB" id="1134" weight="0.5320410964218919" />
+      <edge source="AEP" target="EXC" id="1135" weight="0.7658051863356966" />
+      <edge source="AEP" target="CNP" id="1136" weight="0.8403988968366801" />
+      <edge source="AEP" target="RSG" id="1137" weight="0.5257755379249784" />
+      <edge source="AEP" target="WM" id="1138" weight="0.519535422829419" />
+      <edge source="AEP" target="XEL" id="1139" weight="0.8906419030264904" />
+      <edge source="CMS" target="O" id="1140" weight="0.6090997355471474" />
+      <edge source="CMS" target="D" id="1141" weight="0.7547902803321599" />
+      <edge source="CMS" target="WEC" id="1142" weight="0.9158980219402095" />
+      <edge source="CMS" target="KMB" id="1143" weight="0.5277480317073662" />
+      <edge source="CMS" target="EXC" id="1144" weight="0.7618562848564606" />
+      <edge source="CMS" target="CNP" id="1145" weight="0.8541145555863051" />
+      <edge source="CMS" target="RSG" id="1146" weight="0.5275347640488173" />
+      <edge source="CMS" target="WM" id="1147" weight="0.5161554707274694" />
+      <edge source="CMS" target="XEL" id="1148" weight="0.8888539178043172" />
+      <edge source="O" target="D" id="1149" weight="0.5176961410555931" />
+      <edge source="O" target="ITW" id="1150" weight="0.5010179349453244" />
+      <edge source="O" target="WEC" id="1151" weight="0.5979377502872458" />
+      <edge source="O" target="SPG" id="1152" weight="0.6597270790036389" />
+      <edge source="O" target="EXC" id="1153" weight="0.5100677752169738" />
+      <edge source="O" target="CNP" id="1154" weight="0.5536462216130114" />
+      <edge source="O" target="VTR" id="1155" weight="0.6495034171025698" />
+      <edge source="O" target="XEL" id="1156" weight="0.5771517347239865" />
+      <edge source="DVN" target="VLO" id="1157" weight="0.6533358408019827" />
+      <edge source="DVN" target="APA" id="1158" weight="0.8471546835631669" />
+      <edge source="DVN" target="HES" id="1159" weight="0.829068764459024" />
+      <edge source="DVN" target="WMB" id="1160" weight="0.6605918556952899" />
+      <edge source="EMR" target="ETN" id="1161" weight="0.6316263538825377" />
+      <edge source="EMR" target="ITW" id="1162" weight="0.6638146913119658" />
+      <edge source="EMR" target="IP" id="1163" weight="0.5297404699315885" />
+      <edge source="EMR" target="AIG" id="1164" weight="0.5190810755275771" />
+      <edge source="EMR" target="SPG" id="1165" weight="0.54359367904909" />
+      <edge source="EMR" target="STT" id="1166" weight="0.542340492676347" />
+      <edge source="EMR" target="ECL" id="1167" weight="0.5071134578189744" />
+      <edge source="EMR" target="AME" id="1168" weight="0.6608396301834932" />
+      <edge source="EMR" target="WMB" id="1169" weight="0.5097227615112494" />
+      <edge source="EMR" target="PRU" id="1170" weight="0.5853070539251944" />
+      <edge source="EMR" target="MCHP" id="1171" weight="0.5558277408753266" />
+      <edge source="ETN" target="ITW" id="1172" weight="0.6170835981344052" />
+      <edge source="ETN" target="AIG" id="1173" weight="0.5094446099980819" />
+      <edge source="ETN" target="SPG" id="1174" weight="0.5245569535093253" />
+      <edge source="ETN" target="ECL" id="1175" weight="0.5023010012596405" />
+      <edge source="ETN" target="AME" id="1176" weight="0.780095589247518" />
+      <edge source="ETN" target="PRU" id="1177" weight="0.5735141628451459" />
+      <edge source="ETN" target="MCHP" id="1178" weight="0.5329480911234106" />
+      <edge source="D" target="WEC" id="1179" weight="0.7223053802857878" />
+      <edge source="D" target="EXC" id="1180" weight="0.6187047751521285" />
+      <edge source="D" target="CNP" id="1181" weight="0.711631054827467" />
+      <edge source="D" target="XEL" id="1182" weight="0.7059820050437794" />
+      <edge source="NOC" target="LHX" id="1183" weight="0.6969856858955946" />
+      <edge source="ITW" target="IP" id="1184" weight="0.5270697286011169" />
+      <edge source="ITW" target="SPG" id="1185" weight="0.629956937054136" />
+      <edge source="ITW" target="STT" id="1186" weight="0.5194467658803028" />
+      <edge source="ITW" target="MRVL" id="1187" weight="0.5059624449140193" />
+      <edge source="ITW" target="ECL" id="1188" weight="0.5835741815206731" />
+      <edge source="ITW" target="VTR" id="1189" weight="0.5086893558233265" />
+      <edge source="ITW" target="AME" id="1190" weight="0.7333258969660582" />
+      <edge source="ITW" target="WMB" id="1191" weight="0.508741668323541" />
+      <edge source="ITW" target="PRU" id="1192" weight="0.6122306044573601" />
+      <edge source="ITW" target="UNP" id="1193" weight="0.5640844112664446" />
+      <edge source="ITW" target="SQ" id="1194" weight="0.5381943311815997" />
+      <edge source="ITW" target="LRCX" id="1195" weight="0.559650046127851" />
+      <edge source="ITW" target="INTU" id="1196" weight="0.5419570422560477" />
+      <edge source="ITW" target="ADSK" id="1197" weight="0.5601653991810622" />
+      <edge source="ITW" target="ANSS" id="1198" weight="0.5072902030465529" />
+      <edge source="ITW" target="MCHP" id="1199" weight="0.6255880339772093" />
+      <edge source="VLO" target="APA" id="1200" weight="0.6196984375509368" />
+      <edge source="VLO" target="HES" id="1201" weight="0.6677238468237158" />
+      <edge source="AON" target="AME" id="1202" weight="0.5092461653180198" />
+      <edge source="ADM" target="WMB" id="1203" weight="0.5152823905880073" />
+      <edge source="IP" target="SPG" id="1204" weight="0.5423323996615244" />
+      <edge source="IP" target="WMB" id="1205" weight="0.5023639108242898" />
+      <edge source="IP" target="PRU" id="1206" weight="0.5663746289424323" />
+      <edge source="APA" target="HES" id="1207" weight="0.8367664052748491" />
+      <edge source="APA" target="WMB" id="1208" weight="0.691111200796479" />
+      <edge source="WEC" target="KMB" id="1209" weight="0.5365573787911975" />
+      <edge source="WEC" target="EXC" id="1210" weight="0.7822886212294622" />
+      <edge source="WEC" target="CNP" id="1211" weight="0.873354122318117" />
+      <edge source="WEC" target="WM" id="1212" weight="0.5029904205665713" />
+      <edge source="WEC" target="XEL" id="1213" weight="0.9049688364935592" />
+      <edge source="ALL" target="AIG" id="1214" weight="0.5536224509830703" />
+      <edge source="ALL" target="TRV" id="1215" weight="0.5746472504658827" />
+      <edge source="ALL" target="PGR" id="1216" weight="0.57533594152951" />
+      <edge source="ALL" target="PRU" id="1217" weight="0.564133005823502" />
+      <edge source="AIG" target="TRV" id="1218" weight="0.6548288538628343" />
+      <edge source="AIG" target="SPG" id="1219" weight="0.5377391832894927" />
+      <edge source="AIG" target="STT" id="1220" weight="0.622442283272119" />
+      <edge source="AIG" target="AME" id="1221" weight="0.5324267532932729" />
+      <edge source="AIG" target="WMB" id="1222" weight="0.5064026608985087" />
+      <edge source="AIG" target="PRU" id="1223" weight="0.7796794081405914" />
+      <edge source="TRV" target="PGR" id="1224" weight="0.5040090829964465" />
+      <edge source="TRV" target="PRU" id="1225" weight="0.5571664317643821" />
+      <edge source="SPG" target="STT" id="1226" weight="0.5362477883229101" />
+      <edge source="SPG" target="ECL" id="1227" weight="0.5113136120210632" />
+      <edge source="SPG" target="EXPE" id="1228" weight="0.5146421461285609" />
+      <edge source="SPG" target="VTR" id="1229" weight="0.6236603381029523" />
+      <edge source="SPG" target="AME" id="1230" weight="0.5730755767570146" />
+      <edge source="SPG" target="WMB" id="1231" weight="0.5443552442245123" />
+      <edge source="SPG" target="PRU" id="1232" weight="0.6366702724357776" />
+      <edge source="SPG" target="PYPL" id="1233" weight="0.5178780519008542" />
+      <edge source="SPG" target="SQ" id="1234" weight="0.5434201245423148" />
+      <edge source="SPG" target="ADSK" id="1235" weight="0.5316068416817677" />
+      <edge source="SPG" target="MCHP" id="1236" weight="0.5476668747054086" />
+      <edge source="KMB" target="CNP" id="1237" weight="0.5127600157215613" />
+      <edge source="KMB" target="XEL" id="1238" weight="0.538335497223036" />
+      <edge source="EXC" target="CNP" id="1239" weight="0.7835202001785475" />
+      <edge source="EXC" target="XEL" id="1240" weight="0.7547123981362984" />
+      <edge source="STT" target="AME" id="1241" weight="0.5356537117555769" />
+      <edge source="STT" target="PRU" id="1242" weight="0.7040537741905263" />
+      <edge source="STT" target="SQ" id="1243" weight="0.5165152193478074" />
+      <edge source="STT" target="MCHP" id="1244" weight="0.5088349904444385" />
+      <edge source="MRVL" target="SQ" id="1245" weight="0.5066558629702015" />
+      <edge source="MRVL" target="SHOP" id="1246" weight="0.5074865026204061" />
+      <edge source="MRVL" target="LRCX" id="1247" weight="0.6934225051451913" />
+      <edge source="MRVL" target="INTU" id="1248" weight="0.55820653774652" />
+      <edge source="MRVL" target="ADSK" id="1249" weight="0.5393064923108265" />
+      <edge source="MRVL" target="ANSS" id="1250" weight="0.5518301313487138" />
+      <edge source="MRVL" target="CDNS" id="1251" weight="0.5484566644419676" />
+      <edge source="MRVL" target="MCHP" id="1252" weight="0.728794042825535" />
+      <edge source="MRVL" target="MU" id="1253" weight="0.6438300901863852" />
+      <edge source="ECL" target="AME" id="1254" weight="0.5779688152730527" />
+      <edge source="ECL" target="PRU" id="1255" weight="0.5028934509119048" />
+      <edge source="ECL" target="SQ" id="1256" weight="0.5553843395312645" />
+      <edge source="ECL" target="INTU" id="1257" weight="0.6407027535749158" />
+      <edge source="ECL" target="ADSK" id="1258" weight="0.5560548951087915" />
+      <edge source="ECL" target="ANSS" id="1259" weight="0.5302788404065184" />
+      <edge source="ECL" target="CDNS" id="1260" weight="0.5215689580691295" />
+      <edge source="ECL" target="MCHP" id="1261" weight="0.5354519546919737" />
+      <edge source="CNP" target="RSG" id="1262" weight="0.5208705028664546" />
+      <edge source="CNP" target="WM" id="1263" weight="0.5130847054870887" />
+      <edge source="CNP" target="XEL" id="1264" weight="0.8538997148138315" />
+      <edge source="HES" target="WMB" id="1265" weight="0.670680178552597" />
+      <edge source="RSG" target="WM" id="1266" weight="0.8707277737900145" />
+      <edge source="RSG" target="XEL" id="1267" weight="0.5233665277728263" />
+      <edge source="EXPE" target="RCL" id="1268" weight="0.5329485002196445" />
+      <edge source="EXPE" target="PYPL" id="1269" weight="0.5074173374836207" />
+      <edge source="EXPE" target="SQ" id="1270" weight="0.5506775312695272" />
+      <edge source="EXPE" target="ADSK" id="1271" weight="0.5226321904539015" />
+      <edge source="EXPE" target="MCHP" id="1272" weight="0.5106491787685566" />
+      <edge source="AME" target="PRU" id="1273" weight="0.5835717734288961" />
+      <edge source="AME" target="UNP" id="1274" weight="0.5332357779286213" />
+      <edge source="AME" target="LRCX" id="1275" weight="0.5341425938674492" />
+      <edge source="AME" target="INTU" id="1276" weight="0.5103806940827121" />
+      <edge source="AME" target="ADSK" id="1277" weight="0.5422288844246548" />
+      <edge source="AME" target="MCHP" id="1278" weight="0.611150114654068" />
+      <edge source="WMB" target="PRU" id="1279" weight="0.5596271133128504" />
+      <edge source="RCL" target="MCHP" id="1280" weight="0.5025373521559757" />
+      <edge source="PRU" target="UNP" id="1281" weight="0.5203734680505476" />
+      <edge source="PRU" target="CTSH" id="1282" weight="0.5034240313189108" />
+      <edge source="WM" target="XEL" id="1283" weight="0.5188644703826205" />
+      <edge source="PYPL" target="SQ" id="1284" weight="0.6335563602584512" />
+      <edge source="PYPL" target="SHOP" id="1285" weight="0.5877333229367836" />
+      <edge source="PYPL" target="INTU" id="1286" weight="0.5434214301937169" />
+      <edge source="PYPL" target="ADSK" id="1287" weight="0.5393217333411278" />
+      <edge source="PYPL" target="MCHP" id="1288" weight="0.528588462896648" />
+      <edge source="SQ" target="SHOP" id="1289" weight="0.6270914263631839" />
+      <edge source="SQ" target="LRCX" id="1290" weight="0.5368696542432051" />
+      <edge source="SQ" target="INTU" id="1291" weight="0.6026411294146627" />
+      <edge source="SQ" target="ADSK" id="1292" weight="0.5684121080633593" />
+      <edge source="SQ" target="ANSS" id="1293" weight="0.5337529105852143" />
+      <edge source="SQ" target="MCHP" id="1294" weight="0.6307760707117117" />
+      <edge source="SHOP" target="INTU" id="1295" weight="0.5470226084701505" />
+      <edge source="SHOP" target="ADSK" id="1296" weight="0.5122424846827514" />
+      <edge source="SHOP" target="MCHP" id="1297" weight="0.5089745630154524" />
+      <edge source="BABA" target="JD" id="1298" weight="0.828156319678994" />
+      <edge source="BABA" target="NTES" id="1299" weight="0.6172444972497149" />
+      <edge source="BABA" target="BIDU" id="1300" weight="0.7304219048924753" />
+      <edge source="JD" target="NTES" id="1301" weight="0.5979932455152084" />
+      <edge source="JD" target="BIDU" id="1302" weight="0.7501991421449561" />
+      <edge source="NTES" target="BIDU" id="1303" weight="0.6299252325440214" />
+      <edge source="LRCX" target="INTU" id="1304" weight="0.58333352677366" />
+      <edge source="LRCX" target="ADSK" id="1305" weight="0.5558729198497857" />
+      <edge source="LRCX" target="ANSS" id="1306" weight="0.5531233073956253" />
+      <edge source="LRCX" target="CDNS" id="1307" weight="0.6111168012472383" />
+      <edge source="LRCX" target="MCHP" id="1308" weight="0.7654361372026801" />
+      <edge source="LRCX" target="MU" id="1309" weight="0.6867954977299471" />
+      <edge source="INTU" target="ADSK" id="1310" weight="0.6707176968343213" />
+      <edge source="INTU" target="ANSS" id="1311" weight="0.6144586489706765" />
+      <edge source="INTU" target="CDNS" id="1312" weight="0.6343592748642849" />
+      <edge source="INTU" target="CTSH" id="1313" weight="0.5085633422876099" />
+      <edge source="INTU" target="MCHP" id="1314" weight="0.6333263013124948" />
+      <edge source="ADSK" target="ANSS" id="1315" weight="0.6302894184921153" />
+      <edge source="ADSK" target="CDNS" id="1316" weight="0.5963649408274299" />
+      <edge source="ADSK" target="MCHP" id="1317" weight="0.6311281668175064" />
+      <edge source="ANSS" target="CDNS" id="1318" weight="0.6417834084949623" />
+      <edge source="ANSS" target="MCHP" id="1319" weight="0.5885882946960018" />
+      <edge source="CDNS" target="MCHP" id="1320" weight="0.5689196793271809" />
+      <edge source="CTSH" target="MCHP" id="1321" weight="0.5324541725274511" />
+      <edge source="MCHP" target="MU" id="1322" weight="0.613275360424126" />
+    </edges>
+  </graph>
+</gexf>
