@@ -111,8 +111,5 @@ python src/visualization/app.py
 
 ---
 
-## 🤝 Contributing
-PRs & suggestions are welcome! Fork the repo and open an issue.
-
 📩 **Contact**: jakob.kb@outlook.com  
 
