@@ -12,7 +12,7 @@ Steps:
 """
 
 import pandas as pd
-import time
+from time import sleep
 
 # Pipeline modules
 from data.data_loader import download_and_save_multiple_tickers
@@ -27,6 +27,9 @@ from config import DIRECTORY_CONFIG, DATA_CONFIG
 
 def main():
     """Sample pipeline, uses config args for cases like file directories and more."""
+
+    STEP_DELAY: float = 0.1
+
     # Load tickers
     ticker_csv = DIRECTORY_CONFIG.SAMPLE_DATA_DIR / "sample_tickers_A.csv"
 
@@ -36,13 +39,13 @@ def main():
 
     # Download raw data
     print("Downloading data...")
-    time.sleep(0.1)
+    sleep(STEP_DELAY)
     download_and_save_multiple_tickers(tickers)
     print("Downloaded data saved.\n")
 
     # Process data: daily returns & correlation matrix
     print("Processing data...")
-    time.sleep(0.1)
+    sleep(STEP_DELAY)
     returns_df = aggregate_daily_returns(tickers)
     corr_matrix = compute_correlation_matrix(returns_df)
 
@@ -59,13 +62,13 @@ def main():
 
     # Detect communities
     print("Detecting communities...")
-    time.sleep(0.1)
+    sleep(STEP_DELAY)
     communities = detect_communities(G)
     communities_file_name = "communities.json"
     save_communities(communities, communities_file_name)
     print("Communities saved.\n")
 
-    # Save network & launch Dash app
+    # Save network and launch Dash app
     network_file_name = "network.gexf"
     save_network(G, network_file_name)
 
