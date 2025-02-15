@@ -61,7 +61,7 @@ def save_data_to_csv(df: pd.DataFrame, output_dir: Path, file_name: str) -> None
     Args:
         df (pd.DataFrame): DataFrame to be saved.
         output_dir (Path): Directory where the CSV will be saved.
-        file_name (str): Name of the CSV file.
+        file_name (str): Name of the CSV file to be saved.
 
     Returns:
         None
