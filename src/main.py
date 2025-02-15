@@ -14,7 +14,6 @@ Steps:
 import pandas as pd
 from time import sleep
 
-# Pipeline modules
 from data.data_loader import download_and_save_multiple_tickers
 from data.data_processor import aggregate_daily_returns, compute_correlation_matrix, save_dataframe_to_csv
 from network.network_builder import build_correlation_network, save_network
